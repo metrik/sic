@@ -1,0 +1,55 @@
+- content_for :site do
+  site-scielo
+
+.page-header
+  .container
+    %h1
+      Revistas por materia
+    %p Encuentra todas las revistas de este Portal, organizadas por áreas del conocimiento.
+
+- collections = ["Ciencias Agrícolas", "Ciencias Biológicas", "Ciencias de la Salud", "Ciencias Exactas y de la Tierra", "Ciencias Sociales Aplicadas", "Humanidades", "Ingeniería", "Lingüística, Letras y Artes"]
+
+.container
+  %ol.breadcrumb
+    %li
+      %a{href: "#"} Inicio
+    %li.active Revistas por materia
+  .row
+    .col-md-3
+      #sidebar{"data-spy"=>"affix", "data-offset-top"=>"202", :role => "complementary"}
+        %ul.nav
+          - collections.each do |collection|
+            %li
+              %a{href: "##{collection.gsub(/\s+/, "_").downcase}"}= collection
+    .col-md-9
+      - collections.each do |collection|
+        .panel.panel-default.collection
+          .anchor-container
+            %a.anchor{id: collection.gsub(/\s+/, "_").downcase}
+          .panel-heading
+            %h4= collection
+          .panel-body
+            %p
+              %strong Títulos vigentes
+            %ul
+              %li
+                %a{href: "#"} International Journal 1
+                %em 3 números
+              %li
+                %a{href: "#"} National Journal 2
+                %em 5 números
+              %li
+                %a{href: "#"} Other International Journal 3
+                %em 83 números
+                %br
+                2008: Terminado, continúa como
+                %a{href: "#"} National Journal 2
+            %p
+              %strong Títulos no vigentes
+            %ul
+              %li
+                %a{href: "#"} Deprecated Journal 1
+                %em 3 números
+              %li
+                %a{href: "#"} Old Journal 2
+                %em 5 números

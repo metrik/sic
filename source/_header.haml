@@ -1,0 +1,36 @@
+.navbar
+  .container
+    .navbar-collapse
+      %ul.nav.navbar-nav
+        %li.sic
+          %a{href: "#sic"} Red SIC:
+        %li.scielo
+          %a{href: "#scielo"} SciELO
+        %li.beic
+          %a{href: "#beic"} Beic
+        %li.repo
+          %a{href: "#repo"} Repo. Institucional
+        %li.productividad
+          %a{href: "#productividad"} Productividad Científica
+        %li.investigador
+          %a{href: "#portal"} Portal del Investigador
+        %li.redciencia
+          %a{href: "#redciencia"} Red Ciencia
+    / /.nav-collapse
+#top{"data-spy"=>"affix", "data-offset-top"=>"34"}
+  .container
+    .row
+      .col-xs-9
+        %ul.nav.nav-pills.sitenav
+          %li.home
+            %a
+          %li.active
+            %a{href: "#"}
+              %i.fa.fa-home
+              Inicio
+          %li
+            %a{href: "#about"} Personas
+          %li
+            %a{href: "#contact"} Métricas
+      .col-xs-3.site-search
+        %input.form-control{type: "text", placeholder: "Buscar revistas, artículos..."}
