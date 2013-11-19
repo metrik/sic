@@ -18,9 +18,6 @@
   .row
     .col-md-3
       #sidebar{"data-spy"=>"affix", "data-offset-top"=>"200", "data-offset-bottom"=>"360", :role => "complementary"}
-        %ul.nav
-          %li
-        %h4 Artículo
         %ul.nav.secondary
           %li
             %a{href: "#"}
@@ -29,7 +26,12 @@
             %a{href: "#"}
               %i.fa.fa-download.red
               PDF (Español)
+              %span.size 54 Kb
           %li.separator
+          %li
+            %a{href: "#references"}
+              %i.fa.fa-arrow-right.blue
+              Referencias (18)
           %li
             %a{href: "#"}
               %i.fa.fa-sign-in.orange
@@ -60,7 +62,7 @@
             %a{href: "#", title: "Ver métricas de este artículo"}
               %i.fa.fa-bar-chart-o
               3580 visitas
-    .col-md-9
+    .col-md-7
       .article
         %p.epigraph Research Article
         %h1 Optimization of phenoxazinone synthase production by response surface methodology and its application in Congo red decolourization
@@ -81,8 +83,12 @@
             %p
               %strong Background:
               Enzymatic decolourization has been recently proposed as a promising and eco-friendly method for treatment of synthetic dye-contaminated wastewaters. However, the processes require large quantities of enzymes, attracting significant attention in developing efficient methods for mass production of multifunctional enzymes. Several methods such as response surface methodology (RSM) and orthogonal experiment have been applied to optimize the parameters in bioprocesses for enzyme production.
-
           %p Construido como apéndice de un pequeño bar costero, a metros de la célebre casa de Eileen Gray en Cap Martin, el Cabanon es tan edificio como mueble, y condensa toda la complejidad que las escalas de la madera plantean.
+
+          .figure{id:"fig-1"}
+            = image_tag image_path "example-figure.png"
+            .caption
+              Fig. 1 - Mapa del mundo.
 
           %p ¿Cómo abordar la madera desde una perspectiva contemporánea? Dejando de lado los atributos que la hacen tan atractiva para los promotores de la hoy ineludible sostenibilidad (bajo un manejo adecuado, la madera es un recurso renovable, biodegradable y reciclable) la hipótesis que esta edición plantea es que, quizá, y justamente gracias a esta versatilidad escalar, la madera ofrecería la rara oportunidad de resolver el proyecto de arquitectura con igual contundencia tanto en los frentes que plantea la construcción y la ingeniería como en los asuntos de la cualidad atmosférica y sensorial del espacio.
 
@@ -92,14 +98,15 @@
 
           %p Dos proyectos de título ejemplifican caminos de desarrollo que, desde el prototipo constructivo o el proyecto edilicio, exploran las posibilidades expresivas y estructurales de la madera y que, al igual que la bóveda de lamelas o el conjunto de viviendas en Constitución, plantean un uso del material capaz de abordar magnitudes de orden mayor.
 
-          %h3 References
+          #references
+            %h3 References
 
-          %p.ref{id: "ref-1"}
-            BALDRIAN, P. (2006). Fungal laccases - occurrence and properties.
-            %em FEMS Microbiology Reviews, vol. 30, no. 2, p. 215-242.
-            %a CrossRef
-            = "-"
-            %a Links
+            %p.ref{id: "ref-1"}
+              BALDRIAN, P. (2006). Fungal laccases - occurrence and properties.
+              %em FEMS Microbiology Reviews, vol. 30, no. 2, p. 215-242.
+              %a CrossRef
+              = "-"
+              %a Links
 
         .about
           %h3 Acerca de la revista
@@ -113,6 +120,34 @@
             Received March 16, 2013 / Accepted June 24, 2013
             %br
             DOI: 10.2225/vol16-issue5-fulltext-11
+    .col-md-2
+      .sidebar{"data-spy"=>"affix", "data-offset-top"=>"200", "data-offset-bottom"=>"360", :role => "complementary"}
+        %h4 Contenidos
+        .toc
+          %ol
+            %li
+              %a{href: "#introduction"}Introduction
+            %li
+              %a{href: "#introduction"}Abstract
+              %ul
+                %li
+                  %a{href: "#introduction"}Background
+                %li
+                  %a{href: "#introduction"}Information
+            %li
+              %a{href: "#introduction"}References
+            %li
+              %a{href: "#introduction"}Conclussion
+            %li
+              %a{href: "#introduction"}About
+        %h4 Keywords
+        %p.keywords
+          %a phenoxazinone,
+          %a decolourization,
+          %a enzymes,
+          %a wastewater
+
+
   .article-related
     %h3 Artículos relacionados
     .row

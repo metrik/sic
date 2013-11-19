@@ -27,6 +27,8 @@ $gray:            #95A5A6;
 $dark-gray:       #7F8C8D;
 $white:           #fff;
 
+$semi-transparent-black: rgba(0,0,0,0.3);
+
 /* --- MIXINS --- */
 
 @mixin transition($duration) {
@@ -162,6 +164,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 }
 
+.figure {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 85%;
+  font-style: italic;
+  .caption {
+    margin-top: 10px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0px 1px 4px $semi-transparent-black;
+    /* Use this class for no-shadow figures */
+    &.no-shadow {
+      box-shadow: none;
+    }
+  }
+}
+
 .jumbotron{
   color: $white;
   margin-top: 60px;
@@ -171,6 +194,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .btn-primary {
     border: none;
   }
+}
+
+.keywords {
+  font-size: 85%;
 }
 
 .nav {
@@ -300,7 +327,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
   }
   li.home {
-    width: 120px;
+    width: 112px;
     background-image: image-url('scielo.png');
   }
   .jumbotron, .page-header {
@@ -418,8 +445,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   padding: 10px 0;
 }
 
-#sidebar {
+/* Shows filesize in PDFs and other files */
+.size {
+  font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $gray;
+  margin-left: 3px;
+}
+
+#sidebar, .sidebar {
   position: static;
+}
+
+.toc {
+  font-size: 90%;
+  line-height: 2;
+  ol {
+    padding-left: 1.4em;
+    ul {
+      padding-left: 1.4em;
+    }
+  }
 }
 
 #top {
@@ -442,11 +489,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* -- Media Queries -- */
 
 @media (min-width: 992px) {
-  #sidebar.affix {
+  #sidebar.affix, .sidebar.affix {
     top: 80px;
     position: fixed;
   }
-  #sidebar.affix-bottom{
+  #sidebar.affix-bottom, .sidebar.affix-bottom{
     position: absolute;
+  }
+  .sidebar.affix, .sidebar.affix-bottom{
+    width: 150px;
   }
 }
