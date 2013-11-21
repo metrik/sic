@@ -20,19 +20,31 @@
 #top{"data-spy"=>"affix", "data-offset-top"=>"34"}
   .container
     .row
-      .col-xs-9
+      .col-xs-7
         %ul.nav.nav-pills.sitenav
           %li.home
             %a
           %li.active
             %a{href: "#"}
               %i.fa.fa-home
-              Inicio
           %li
             %a{href: "#about"} Personas
           %li
             %a{href: "#contact"} Métricas
           %li
             %a{href: "#contact"} Biblioteca
-      .col-xs-3.site-search
-        %input.form-control{type: "text", placeholder: "Buscar revistas, artículos..."}
+      .col-xs-2
+        %ul.nav.nav-pills.lang
+          %li.dropdown
+            %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+              Español
+              %b.caret
+            %ul.dropdown-menu
+              %li
+                %a{href: "#"} English
+              %li
+                %a{href: "#"} Português
+      .col-xs-3
+        .site-search
+          %i.fa.fa-search
+          %input.form-control{type: "text", placeholder: "Buscar revistas, artículos..."}
