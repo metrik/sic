@@ -4,17 +4,14 @@
 .page-header
   .container
     %h2
-      Electronic Journal of Biotechnology
-    %p Vol. 16 No. 5, Issue of September 15, 2013
+      Research Article
 
 .container
   %ol.breadcrumb
     %li
       %a{href: "#"} Inicio
     %li
-      %a{href: "#"} Revistas
-    %li
-      %a{href: "#"} Electronic Journal of Biotechnology Nº 5
+      %a{href: "#"} Biotecnología
   .row
     .col-md-3
       #sidebar{"data-spy"=>"affix", "data-offset-top"=>"200", "data-offset-bottom"=>"360", :role => "complementary"}
@@ -62,13 +59,12 @@
             %a{href: "#", title: "Ver métricas de este artículo"}
               %i.fa.fa-bar-chart-o
               3580 visitas
-    .col-md-7
+    .col-md-9
       .article
-        %p.epigraph Research Article
         %h1 Optimization of phenoxazinone synthase production by response surface methodology and its application in Congo red decolourization
         %p.author
-          %strong Honghua Jia* · Zhen Gao · Yingying Ma · Chao Zhong · Yingchun Xie · Hua Zhou · Ping Wei
-          Nanjing University of Technology, College of Biotechnology and Pharmaceutical Engineering, Nanjing, P.R. China
+          %strong Honghua Jia*<sup>1</sup> · Zhen Gao<sup>1</sup> · Yingying Ma<sup>1</sup> · Chao Zhong<sup>1</sup> · Yingchun Xie<sup>1</sup> · Hua Zhou<sup>1</sup> · Ping Wei<sup>1</sup>
+          <sup>1</sup>Nanjing University of Technology, College of Biotechnology and Pharmaceutical Engineering, Nanjing, P.R. China
         %p.meta
           %span
             %i.fa.fa-unlock
@@ -77,11 +73,39 @@
             %i.fa.fa-pencil
             Revisado por pares
         %p.summary Enzymatic decolourization has been recently proposed as a promising and eco-friendly method for treatment of synthetic dye-contaminated wastewaters.
+        %p.keywords
+          %strong Keywords:
+          %a phenoxazinone,
+          %a decolourization,
+          %a enzymes,
+          %a wastewater
+        .jump-list
+          %ul.nav.nav-pills
+            %li.menulabel Saltar a:
+            %li
+              %a{href:"#abstract"}
+                %i.fa.fa-list
+                Abstract
+            %li
+              %a{href:"#article"}
+                %i.fa.fa-file-o
+                Artículo
+            %li
+              %a{href:"#references"}
+                %i.fa.fa-sign-in
+                Referencias
+            %li
+              %a{href:"#article"}
+                %i.fa.fa-book
+                Acerca de la revista
         .article-body
           .abstract
             %h3 Abstract
             %p
               %strong Background:
+              Enzymatic decolourization has been recently proposed as a promising and eco-friendly method for treatment of synthetic dye-contaminated wastewaters. However, the processes require large quantities of enzymes, attracting significant attention in developing efficient methods for mass production of multifunctional enzymes. Several methods such as response surface methodology (RSM) and orthogonal experiment have been applied to optimize the parameters in bioprocesses for enzyme production.
+            %p
+              %strong Methods:
               Enzymatic decolourization has been recently proposed as a promising and eco-friendly method for treatment of synthetic dye-contaminated wastewaters. However, the processes require large quantities of enzymes, attracting significant attention in developing efficient methods for mass production of multifunctional enzymes. Several methods such as response surface methodology (RSM) and orthogonal experiment have been applied to optimize the parameters in bioprocesses for enzyme production.
           %p Construido como apéndice de un pequeño bar costero, a metros de la célebre casa de Eileen Gray en Cap Martin, el Cabanon es tan edificio como mueble, y condensa toda la complejidad que las escalas de la madera plantean.
 
@@ -92,9 +116,12 @@
 
           %p ¿Cómo abordar la madera desde una perspectiva contemporánea? Dejando de lado los atributos que la hacen tan atractiva para los promotores de la hoy ineludible sostenibilidad (bajo un manejo adecuado, la madera es un recurso renovable, biodegradable y reciclable) la hipótesis que esta edición plantea es que, quizá, y justamente gracias a esta versatilidad escalar, la madera ofrecería la rara oportunidad de resolver el proyecto de arquitectura con igual contundencia tanto en los frentes que plantea la construcción y la ingeniería como en los asuntos de la cualidad atmosférica y sensorial del espacio.
 
-          %h3 Concluding Remarks
+          / Example formatting, just to test styles normalization
 
-          %p Este número de ARQ se detiene particularmente en proyectos y artículos que dan cuenta, simultáneamente, de esa doble escala de la madera. Por una parte, se trata de una materia capaz de desplegar una notable potencia estructural, en algunos casos llegando al punto de las grandes luces y de la edificación en mediana altura. En el otro extremo, la madera aparece como fértil terreno para el desarrollo del detalle, gracias a su condición táctil -en cuanto materia sensual, liviana y cercana en su medida a la mano- y sus propiedades plásticas: cálida, colorida, aromática, moldeable, precisa. Lo interesante es que esta combinación escalar puede existir desde la economía de medios materiales y usando tecnologías de bajo impacto, como en el notable ejemplo de la casa Cúpula de Buckminster Fuller, presentada lúcidamente en el ensayo que abre este número.
+          %h3
+            %font{face: "Verdana", size: "325", color: "#cc0000"}Concluding Remarks
+
+          %p{align: "right", style:"text-align: right"} Este número de ARQ se detiene particularmente en proyectos y artículos que dan cuenta, simultáneamente, de esa doble escala de la madera. Por una parte, se trata de una materia capaz de desplegar una notable potencia estructural, en algunos casos llegando al punto de las grandes luces y de la edificación en mediana altura. En el otro extremo, la madera aparece como fértil terreno para el desarrollo del detalle, gracias a su condición táctil -en cuanto materia sensual, liviana y cercana en su medida a la mano- y sus propiedades plásticas: cálida, colorida, aromática, moldeable, precisa. Lo interesante es que esta combinación escalar puede existir desde la economía de medios materiales y usando tecnologías de bajo impacto, como en el notable ejemplo de la casa Cúpula de Buckminster Fuller, presentada lúcidamente en el ensayo que abre este número.
 
           %p Dos proyectos de título ejemplifican caminos de desarrollo que, desde el prototipo constructivo o el proyecto edilicio, exploran las posibilidades expresivas y estructurales de la madera y que, al igual que la bóveda de lamelas o el conjunto de viviendas en Constitución, plantean un uso del material capaz de abordar magnitudes de orden mayor.
 
@@ -102,11 +129,20 @@
             %h3 References
 
             %p.ref{id: "ref-1"}
+              %a{href: "#"} [1]
               BALDRIAN, P. (2006). Fungal laccases - occurrence and properties.
               %em FEMS Microbiology Reviews, vol. 30, no. 2, p. 215-242.
-              %a CrossRef
+              %a{href: "#"} CrossRef
               = "-"
-              %a Links
+              %a{href: "#"} Links
+
+            %p.ref{id: "ref-2"}
+              %a{href: "#"} [2]
+              BALDRIAN, P. (2006). Fungal laccases - occurrence and properties.
+              %em FEMS Microbiology Reviews, vol. 30, no. 2, p. 215-242.
+              %a{href: "#"} CrossRef
+              = "-"
+              %a{href: "#"} Links
 
         .about
           %h3 Acerca de la revista
@@ -120,32 +156,6 @@
             Received March 16, 2013 / Accepted June 24, 2013
             %br
             DOI: 10.2225/vol16-issue5-fulltext-11
-    .col-md-2
-      .sidebar{"data-spy"=>"affix", "data-offset-top"=>"200", "data-offset-bottom"=>"360", :role => "complementary"}
-        %h4 Contenidos
-        .toc
-          %ol
-            %li
-              %a{href: "#introduction"}Introduction
-            %li
-              %a{href: "#introduction"}Abstract
-              %ul
-                %li
-                  %a{href: "#introduction"}Background
-                %li
-                  %a{href: "#introduction"}Information
-            %li
-              %a{href: "#introduction"}References
-            %li
-              %a{href: "#introduction"}Conclussion
-            %li
-              %a{href: "#introduction"}About
-        %h4 Keywords
-        %p.keywords
-          %a phenoxazinone,
-          %a decolourization,
-          %a enzymes,
-          %a wastewater
 
 
   .article-related
