@@ -1,0 +1,13 @@
+.search_big
+  %form
+    %i.fa.fa-search
+    %input.form-control{type: "text", placeholder: "Buscar revistas, papers y artículos"}
+    %span.example
+      %strong Buscador global SIC.
+      Prueba con
+      = succeed "," do
+        %a{href: "#"} Biotecnología
+      = succeed " o " do
+        %a{href: "#"} Infectología
+      = succeed "." do
+        %a{href: "#"} Células madre
