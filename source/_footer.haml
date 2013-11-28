@@ -1,10 +1,44 @@
 %footer
   .container
-    %p
-      CONICYT - CHILE
-      %br
-      Canadá 308 - Providencia
-      %br
-      Santiago - Chile
-      %br
-      Tel.: +56 2 2365-4400
+    .row
+      .col-sm-4
+        %p
+          %a{href: "http://www.informacioncientifica.cl"}= image_tag "sic.png", :width => 90
+        %p
+          %strong Acerca de Sic
+        %ul
+          %li
+            %a{href: "#"} Qué es SIC
+          %li
+            %a{href: "#"} Contáctanos
+      .col-sm-4
+        %p
+          %strong Sitios de la Red SIC
+        %ul
+          %li
+            %a{href: "#about"} Beic
+          %li
+            %a{href: "#about"} Scielo
+          %li
+            %a{href: "#about"} Repositorio Institucional
+          %li
+            %a{href: "#about"} Portal de Productividad Científica
+          %li
+            %a{href: "#about"} Portal del Investigador
+          %li
+            %a{href: "#about"} Red Ciencia
+      .col-sm-4
+        %p
+          = image_tag "logo-conicyt.png", :height => 90, :class => "logo-conicyt"
+          %strong CONICYT - CHILE
+          %br
+          Canadá 308 - Providencia
+          %br
+          Santiago - Chile
+          %br
+          Tel.: +56 2 2365-4400
+        %p.clear
+          %br
+          %a{href: "#"}
+            %i.fa.fa-twitter
+            Twitter: @sic_chile

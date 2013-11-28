@@ -8,10 +8,10 @@
     %meta{content: "", name: "author"}/
     %title= yield_content(:title) || "SIC"
     / Bootstrap core CSS. Prefer CDN versions (commented out)
-    = stylesheet_link_tag "bootstrap.min.css"
-    /= stylesheet_link_tag "//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css"
-    = stylesheet_link_tag "font-awesome/css/font-awesome.min.css"
-    /= stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    /= stylesheet_link_tag "bootstrap.min.css"
+    = stylesheet_link_tag "//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css"
+    /= stylesheet_link_tag "font-awesome/css/font-awesome.min.css"
+    = stylesheet_link_tag "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
     = stylesheet_link_tag "all"
     / Custom styles for this template
     / Just for debugging purposes. Don't actually copy this line!
@@ -24,7 +24,8 @@
 
   %body{:class => yield_content(:site) || "site-sic"}
     = partial "header"
-    = yield
+    #wrap
+      = yield
     / /container
     = partial "footer"
     /
