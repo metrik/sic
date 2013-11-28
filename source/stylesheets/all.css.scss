@@ -71,6 +71,11 @@ footer {
     &:hover {
       color: $white;
     }
+    &.sic-footer {
+      position: relative;
+      top: -6px;
+      left: -8px;
+    }
   }
   ul {
     font-size: 85%;
@@ -198,6 +203,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 }
 
+.featured-text {
+  font-size: 120%;
+  font-style: italic;
+}
+
 .figure {
   padding: 20px 0;
   text-align: center;
@@ -248,6 +258,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   float: left;
   margin-right: 10px;
   box-shadow: 0px 2px 4px $semi-transparent-black;
+}
+
+.magazine {
+  overflow: hidden;
+  .cover {
+    background-color: $white;
+    padding: 10px;
+    float: right;
+    margin-top: 25px;
+    box-shadow: 0px 2px 3px $semi-transparent-black;
+    img {
+      max-width: 200px;
+      max-height: 70px;
+    }
+  }
 }
 
 .nav {
