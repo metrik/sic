@@ -62,7 +62,7 @@
                 %a{href: "#"} Português
       .col-xs-3
         .site-search
-          %form{:action => '/sinatra/search.html', :method => :post}
+          %form{:action => '/search.html', :method => :post}
             %i.fa.fa-search
             %input#search_header.form-control{:name => 'query',type: "text", placeholder: "Buscar revistas, artículos...", value: @query || nil}
             #search_advanced{style: "display:none"}

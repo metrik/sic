@@ -1,4 +1,46 @@
 
+# Change Compass configuration
+compass_config do |config|
+  # routes for stylesheets directories at build mode
+  config.sass_options = {:output_style => :nested, :images_dir => 'images', :fonts_dir => 'fonts'}
+end
+
+Encoding.default_external = 'utf-8'
+
+# for physical directories at development mode
+set :images_dir,  "images"
+set :fonts_dir,  "fonts"
+set :css_dir,  "stylesheets"
+set :js_dir, "javascripts"
+
+set :markdown, :layout_engine => :haml
+
+
+set :default_encoding, 'utf-8'
+
+# Build-specific configuration
+
+configure :build do
+  activate :compass
+
+  activate :minify_css
+  activate :minify_javascript
+
+  # Use relative URLs
+  activate :relative_assets
+
+  # Enable cache buster
+  # activate :cache_buster
+
+  # Compress PNGs after build
+  # First: gem install middleman-smusher
+  # require "middleman-smusher"
+  # activate :smusher
+
+  # Or use a different image path
+  #set :http_path, "./"
+
+end
 
 require "sinatra"
 use Rack::CommonLogger
@@ -7,11 +49,9 @@ require 'sinatra/partial'
 require 'sinatra/static_assets'
 require 'sinatra-env'
 require 'haml'
-require 'httparty'
 require 'active_support/core_ext/string'
 require 'will_paginate'
 require 'will_paginate/array'
-require "will_paginate-bootstrap"
 
 
 module ApplicationHelper
@@ -23,7 +63,7 @@ module ApplicationHelper
   def generate_url(type, value)
     return "#" if type == 'domain' && @domains.length == 1
     return "#" if type == 'rtype' && @types.length == 1
-    url = "/search.html?query=#{@query}&page=#{@page}"
+    url = "/sinatra/search.html?query=#{@query}&page=#{@page}"
     url << "&rtype=#{@rtype}" unless @rtype.blank?
     url << "&domain=#{@domain}" unless @domain.blank?
     url << "&#{type}=#{value}"
@@ -31,7 +71,7 @@ module ApplicationHelper
   end
 
   def params_for_will_paginate()
-    params = {}
+    params = {:query  => @query}
     params.merge!({:domain => @domain}) unless @domain.blank?
     params.merge!({:rtype => @rtype}) unless @rtype.blank?
     return params
@@ -51,20 +91,13 @@ require "nokogiri"
   get "/" do
 
   end
-  get "/search.html" do
+  post "/search.html" do
   
-    if params[:page].blank? || params[:page].to_i <1
-      @page =  1
-    else
-      @page = params[:page].to_i
-    end
+
+    @page = params[:page] || 1
     @per_page = 30
     indx = @per_page*(@page-1)+1
-    options = {:indx  => indx, 
-                :bulk_size => @per_page, 
-                :institution => 'CONICYT',
-                :loc => 'local,scope:(conicyt_dspace,conicyt_scielocl)',
-                :loc => 'adaptor,primo_central_multiple_fe'} 
+    options = {:indx  => indx, :bulk_size => @per_page, :institution => 'CONICYT'}
     @query = params[:query]
     @domain = params[:domain]
     @rtype = params[:type]
@@ -82,13 +115,11 @@ require "nokogiri"
     #CONSTRUIR LA url
 
     #PARA OBTENER EL xml SIN ESPACIOS NI SALTOS DE LINEA
-    if params[:remote].blank? || Sinatra.env.development?
+    if Sinatra.env.development?
       aux = File.read("primo.xml").gsub(/>\s+</,'><')
     else
       #Production
-      response = HTTParty.get('http://primo.gsl.com.mx:1701/PrimoWebServices/xservice/search/brief', options)
-      puts response.to_yaml
-      aux = response.body.gsub(/>\s+</,'><')
+      aux = HTTParty.get('http://primo.gsl.com.mx:1701/PrimoWebServices/xservice/search/brief', options).gsub(/>\s+</,'><')
     end
     doc = Nokogiri::XML(aux)
     
@@ -124,6 +155,9 @@ require "nokogiri"
   end
 end
 
+map "/sinatra" do  
+  run MySinatra
+end 
 
 
 ###
