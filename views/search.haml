@@ -1,0 +1,79 @@
+- content_for :site do
+  site-scielo
+
+.page-header
+  .container
+    = partial "_search_small"
+
+.container
+  .row
+    .col-md-3
+      #sidebar{"data-spy"=>"affix", "data-offset-top"=>"115", :role => "complementary"}
+        %ul.nav
+          %li
+        %h4 Refinar resultados
+        %p
+          %strong Colección
+        %ul.nav.secondary
+          -@domains.each do |d|
+            %li
+              %a{href: generate_url('domain', d[:key])}
+                =d[:key].titleize
+                %span.indicator
+                  =d[:value]
+          %li.separator
+        %p
+          %strong Tipo de recurso
+        %ul.nav.secondary
+          -@types.each do |d|
+            %li
+              %a{href: generate_url('rtype', d[:key])}
+                =d[:key].titleize
+                %span.indicator
+                  =d[:value]
+    .col-md-9
+      .search-header
+        %h3 
+          ="Búsqueda: '#{@query}' (#{@total} resultados)"
+        =will_paginate(@page_results,renderer: BootstrapPagination::Sinatra, params: params_for_will_paginate())
+        %ul.nav.nav-pills
+          %li.menulabel Ordenar por:
+          %li.dropdown
+            %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+              Relevancia
+              %b.caret
+            %ul.dropdown-menu.pull-right
+              %li
+                %a{href: "#"} Nombre
+              %li
+                %a{href: "#"} Fecha más reciente
+      - @records.each do |r|
+        .result
+          %h4
+            %i.fa.fa-star-o
+            %a{href: "#"}
+              =r[:title].titleize
+          %p
+            %em.author
+              =r[:authors]              
+            %br
+            %span.magazine
+              =r[:publisher].titleize
+              ,
+              =r[:creation_date]
+              ,
+              ="Vol.#{r[:volume]}"
+              %em.hide
+                , pp.7127-7134 [Revistas arbitradas]
+          %p.excerpt.hide
+            consequences, such as the release of <strong>radioactive</strong> waste and... to analyze risks and uncertainties of a <strong>radioactive</strong>... statistical nature. Diffusion of...
+          %p.options
+            %i.fa.fa-check.green
+            Texto completo disponible
+            |
+            %a{href: "#"} Detalles
+            |
+            %a{href: "#"} Recomendaciones
+            |
+            %a{href: "#"} Todas las versiones
+      =will_paginate(@page_results,renderer: BootstrapPagination::Sinatra, params: params_for_will_paginate())

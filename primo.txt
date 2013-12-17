@@ -1,0 +1,1181 @@
+<SEGMENTS xmlns="http://www.exlibrisgroup.com/xsd/jaguar/search">
+  <JAGROOT>
+    <RESULT>
+      <FACETLIST ACCURATE_COUNTERS="true" FACET_COUNT="9">
+        <FACET NAME="topic" COUNT="40">
+          <FACET_VALUES KEY="Infancia" VALUE="33"/>
+          <FACET_VALUES KEY="Substance Use" VALUE="47"/>
+          <FACET_VALUES KEY="Adolescents" VALUE="646"/>
+          <FACET_VALUES KEY="Intervention" VALUE="350"/>
+          <FACET_VALUES KEY="Hypertension" VALUE="46"/>
+          <FACET_VALUES KEY="Diagnóstico" VALUE="71"/>
+          <FACET_VALUES KEY="Problematic Internet Use" VALUE="31"/>
+          <FACET_VALUES KEY="CHILE" VALUE="664"/>
+          <FACET_VALUES KEY="Obesity" VALUE="730"/>
+          <FACET_VALUES KEY="CRECIMIENTO" VALUE="70"/>
+          <FACET_VALUES KEY="Depression" VALUE="589"/>
+          <FACET_VALUES KEY="Recién nacido" VALUE="65"/>
+          <FACET_VALUES KEY="Lactante" VALUE="26"/>
+          <FACET_VALUES KEY="Recién nacidos" VALUE="24"/>
+          <FACET_VALUES KEY="INGENIERIA EN TELECOMUNICACIONES" VALUE="9"/>
+          <FACET_VALUES KEY="Internet Use" VALUE="101"/>
+          <FACET_VALUES KEY="epidemiology" VALUE="55"/>
+          <FACET_VALUES KEY="Anatomy" VALUE="79"/>
+          <FACET_VALUES KEY="Online" VALUE="158"/>
+          <FACET_VALUES KEY="Behavior Therapy" VALUE="172"/>
+          <FACET_VALUES KEY="Anxiety" VALUE="460"/>
+          <FACET_VALUES KEY="diarrea aguda" VALUE="25"/>
+          <FACET_VALUES KEY="Video Games" VALUE="145"/>
+          <FACET_VALUES KEY="Internet Addiction" VALUE="134"/>
+          <FACET_VALUES KEY="Diarrea" VALUE="17"/>
+          <FACET_VALUES KEY="Anemia" VALUE="30"/>
+          <FACET_VALUES KEY="Epilepsia" VALUE="21"/>
+          <FACET_VALUES KEY="Paleopathology" VALUE="15"/>
+          <FACET_VALUES KEY="Clinical Trials" VALUE="430"/>
+          <FACET_VALUES KEY="Social Phobia" VALUE="47"/>
+          <FACET_VALUES KEY="Internet" VALUE="10113"/>
+          <FACET_VALUES KEY="Victimization" VALUE="31"/>
+          <FACET_VALUES KEY="Self-help" VALUE="73"/>
+          <FACET_VALUES KEY="Niños" VALUE="153"/>
+          <FACET_VALUES KEY="Lactantes" VALUE="40"/>
+          <FACET_VALUES KEY="Anatomía" VALUE="92"/>
+          <FACET_VALUES KEY="Treatment" VALUE="385"/>
+          <FACET_VALUES KEY="Neumonía" VALUE="35"/>
+          <FACET_VALUES KEY="Cognitive Therapy" VALUE="274"/>
+          <FACET_VALUES KEY="Personality" VALUE="244"/>
+        </FACET>
+        <FACET NAME="pfilter" COUNT="8">
+          <FACET_VALUES KEY="newspaper_articles" VALUE="49"/>
+          <FACET_VALUES KEY="legal_documents" VALUE="1"/>
+          <FACET_VALUES KEY="reviews" VALUE="19647"/>
+          <FACET_VALUES KEY="tesis" VALUE="22"/>
+          <FACET_VALUES KEY="articles" VALUE="194902"/>
+          <FACET_VALUES KEY="dissertations" VALUE="207"/>
+          <FACET_VALUES KEY="conference_proceedings" VALUE="7639"/>
+          <FACET_VALUES KEY="books" VALUE="636"/>
+        </FACET>
+        <FACET NAME="tlevel" COUNT="4">
+          <FACET_VALUES KEY="Scielo Chile" VALUE="27579"/>
+          <FACET_VALUES KEY="repositorio_local" VALUE="88"/>
+          <FACET_VALUES KEY="peer_reviewed" VALUE="151125"/>
+          <FACET_VALUES KEY="online_resources" VALUE="161998"/>
+        </FACET>
+        <FACET NAME="domain" COUNT="8">
+          <FACET_VALUES KEY="nature.com (Nature Publishing Group)" VALUE="630"/>
+          <FACET_VALUES KEY="Repositorio Digital Conicyt" VALUE="88"/>
+          <FACET_VALUES KEY="Wiley Online Library" VALUE="8111"/>
+          <FACET_VALUES KEY="SciVerse ScienceDirect (Elsevier)" VALUE="144913"/>
+          <FACET_VALUES KEY="Scielo Chile" VALUE="27579"/>
+          <FACET_VALUES KEY="SpringerLink" VALUE="9573"/>
+          <FACET_VALUES KEY="SwePub (National Library of Sweden)" VALUE="3220"/>
+          <FACET_VALUES KEY="Oxford Journals (Oxford University Press)" VALUE="7005"/>
+        </FACET>
+        <FACET NAME="rtype" COUNT="10">
+          <FACET_VALUES KEY="tesis" VALUE="22"/>
+          <FACET_VALUES KEY="newspaper_articles" VALUE="49"/>
+          <FACET_VALUES KEY="legal_documents" VALUE="1"/>
+          <FACET_VALUES KEY="books" VALUE="583"/>
+          <FACET_VALUES KEY="articles" VALUE="182274"/>
+          <FACET_VALUES KEY="text_resources" VALUE="26370"/>
+          <FACET_VALUES KEY="other" VALUE="1"/>
+          <FACET_VALUES KEY="dissertations" VALUE="207"/>
+          <FACET_VALUES KEY="reviews" VALUE="19647"/>
+          <FACET_VALUES KEY="conference_proceedings" VALUE="7639"/>
+        </FACET>
+        <FACET NAME="jtitle" COUNT="16">
+          <FACET_VALUES KEY="Journal Of Affective Disorders" VALUE="135"/>
+          <FACET_VALUES KEY="Personality and Individual Differences" VALUE="213"/>
+          <FACET_VALUES KEY="Computers in human behavior" VALUE="1226"/>
+          <FACET_VALUES KEY="Social Science &amp; Medicine" VALUE="461"/>
+          <FACET_VALUES KEY="Gerontologist" VALUE="72"/>
+          <FACET_VALUES KEY="Drug and Alcohol Dependence" VALUE="178"/>
+          <FACET_VALUES KEY="Behaviour research and therapy : an international multi-disciplinary journal" VALUE="77"/>
+          <FACET_VALUES KEY="Preventive Medicine" VALUE="193"/>
+          <FACET_VALUES KEY="Computers &amp; Education" VALUE="1142"/>
+          <FACET_VALUES KEY="Nature" VALUE="64"/>
+          <FACET_VALUES KEY="Nature : a weekly journal of science" VALUE="12"/>
+          <FACET_VALUES KEY="Vaccine" VALUE="348"/>
+          <FACET_VALUES KEY="Behaviour Research and Therapy" VALUE="139"/>
+          <FACET_VALUES KEY="Scientific American" VALUE="34"/>
+          <FACET_VALUES KEY="Journal of Adolescence" VALUE="89"/>
+          <FACET_VALUES KEY="Nature : the international weekly journal of science" VALUE="7"/>
+        </FACET>
+        <FACET NAME="creationdate" COUNT="63">
+          <FACET_VALUES KEY="1975" VALUE="6"/>
+          <FACET_VALUES KEY="1910" VALUE="1"/>
+          <FACET_VALUES KEY="1974" VALUE="13"/>
+          <FACET_VALUES KEY="1973" VALUE="7"/>
+          <FACET_VALUES KEY="1940" VALUE="3"/>
+          <FACET_VALUES KEY="1972" VALUE="7"/>
+          <FACET_VALUES KEY="1971" VALUE="3"/>
+          <FACET_VALUES KEY="1970" VALUE="2"/>
+          <FACET_VALUES KEY="1969" VALUE="5"/>
+          <FACET_VALUES KEY="1968" VALUE="2"/>
+          <FACET_VALUES KEY="1967" VALUE="3"/>
+          <FACET_VALUES KEY="1999" VALUE="6056"/>
+          <FACET_VALUES KEY="1966" VALUE="3"/>
+          <FACET_VALUES KEY="1998" VALUE="5684"/>
+          <FACET_VALUES KEY="1965" VALUE="2"/>
+          <FACET_VALUES KEY="1997" VALUE="5555"/>
+          <FACET_VALUES KEY="1996" VALUE="3959"/>
+          <FACET_VALUES KEY="1900" VALUE="10"/>
+          <FACET_VALUES KEY="1995" VALUE="2560"/>
+          <FACET_VALUES KEY="1994" VALUE="1284"/>
+          <FACET_VALUES KEY="1930" VALUE="3"/>
+          <FACET_VALUES KEY="1993" VALUE="699"/>
+          <FACET_VALUES KEY="1992" VALUE="395"/>
+          <FACET_VALUES KEY="1000" VALUE="5"/>
+          <FACET_VALUES KEY="1991" VALUE="284"/>
+          <FACET_VALUES KEY="1990" VALUE="222"/>
+          <FACET_VALUES KEY="2013" VALUE="11324"/>
+          <FACET_VALUES KEY="2012" VALUE="18153"/>
+          <FACET_VALUES KEY="1800" VALUE="19"/>
+          <FACET_VALUES KEY="2011" VALUE="15703"/>
+          <FACET_VALUES KEY="2010" VALUE="17546"/>
+          <FACET_VALUES KEY="1700" VALUE="7"/>
+          <FACET_VALUES KEY="1957" VALUE="1"/>
+          <FACET_VALUES KEY="1989" VALUE="134"/>
+          <FACET_VALUES KEY="1988" VALUE="138"/>
+          <FACET_VALUES KEY="1987" VALUE="140"/>
+          <FACET_VALUES KEY="1954" VALUE="1"/>
+          <FACET_VALUES KEY="1986" VALUE="141"/>
+          <FACET_VALUES KEY="1985" VALUE="106"/>
+          <FACET_VALUES KEY="1920" VALUE="2"/>
+          <FACET_VALUES KEY="1600" VALUE="15"/>
+          <FACET_VALUES KEY="1984" VALUE="90"/>
+          <FACET_VALUES KEY="500" VALUE="1"/>
+          <FACET_VALUES KEY="1983" VALUE="108"/>
+          <FACET_VALUES KEY="2009" VALUE="16216"/>
+          <FACET_VALUES KEY="1950" VALUE="1"/>
+          <FACET_VALUES KEY="1982" VALUE="98"/>
+          <FACET_VALUES KEY="2008" VALUE="15081"/>
+          <FACET_VALUES KEY="1981" VALUE="62"/>
+          <FACET_VALUES KEY="2007" VALUE="14356"/>
+          <FACET_VALUES KEY="1980" VALUE="80"/>
+          <FACET_VALUES KEY="2006" VALUE="13429"/>
+          <FACET_VALUES KEY="2005" VALUE="12422"/>
+          <FACET_VALUES KEY="2004" VALUE="10819"/>
+          <FACET_VALUES KEY="2003" VALUE="9256"/>
+          <FACET_VALUES KEY="2002" VALUE="8756"/>
+          <FACET_VALUES KEY="2001" VALUE="7940"/>
+          <FACET_VALUES KEY="2000" VALUE="7702"/>
+          <FACET_VALUES KEY="1500" VALUE="118"/>
+          <FACET_VALUES KEY="1979" VALUE="16"/>
+          <FACET_VALUES KEY="1978" VALUE="9"/>
+          <FACET_VALUES KEY="1977" VALUE="12"/>
+          <FACET_VALUES KEY="1976" VALUE="7"/>
+        </FACET>
+        <FACET NAME="lang" COUNT="19">
+          <FACET_VALUES KEY="hun" VALUE="2"/>
+          <FACET_VALUES KEY="und" VALUE="17"/>
+          <FACET_VALUES KEY="fre" VALUE="8415"/>
+          <FACET_VALUES KEY="eng" VALUE="170251"/>
+          <FACET_VALUES KEY="nor" VALUE="1"/>
+          <FACET_VALUES KEY="por" VALUE="321"/>
+          <FACET_VALUES KEY="ara" VALUE="1"/>
+          <FACET_VALUES KEY="jpn" VALUE="1"/>
+          <FACET_VALUES KEY="rus" VALUE="4"/>
+          <FACET_VALUES KEY="pol" VALUE="15"/>
+          <FACET_VALUES KEY="ita" VALUE="61"/>
+          <FACET_VALUES KEY="tur" VALUE="1"/>
+          <FACET_VALUES KEY="rum" VALUE="2"/>
+          <FACET_VALUES KEY="spa" VALUE="24442"/>
+          <FACET_VALUES KEY="dut" VALUE="173"/>
+          <FACET_VALUES KEY="chi" VALUE="370"/>
+          <FACET_VALUES KEY="ger" VALUE="10631"/>
+          <FACET_VALUES KEY="swe" VALUE="350"/>
+          <FACET_VALUES KEY="dan" VALUE="1"/>
+        </FACET>
+        <FACET NAME="creator" COUNT="40">
+          <FACET_VALUES KEY="Skelly, Joan" VALUE="2"/>
+          <FACET_VALUES KEY="Prado J,Valeria" VALUE="32"/>
+          <FACET_VALUES KEY="Gabrielli,C" VALUE="15"/>
+          <FACET_VALUES KEY="Andrews, Gavin" VALUE="14"/>
+          <FACET_VALUES KEY="Yen, David C." VALUE="75"/>
+          <FACET_VALUES KEY="Valenzuela Y,Carlos" VALUE="15"/>
+          <FACET_VALUES KEY="CERDA S,MARIO" VALUE="14"/>
+          <FACET_VALUES KEY="Avendaño B,Alfredo" VALUE="9"/>
+          <FACET_VALUES KEY="González E,Patricio" VALUE="20"/>
+          <FACET_VALUES KEY="Zolezzi R,Paola" VALUE="16"/>
+          <FACET_VALUES KEY="Titov, Nickolai" VALUE="9"/>
+          <FACET_VALUES KEY="Lagos Z,Rosanna" VALUE="17"/>
+          <FACET_VALUES KEY="Colombo C,Marta" VALUE="14"/>
+          <FACET_VALUES KEY="Feliciano, Cynthia" VALUE="3"/>
+          <FACET_VALUES KEY="Ceresa O,Sergio" VALUE="13"/>
+          <FACET_VALUES KEY="Eggers M,Martha" VALUE="10"/>
+          <FACET_VALUES KEY="Ashikaga, Takamaru" VALUE="1"/>
+          <FACET_VALUES KEY="Bourgeois, Michelle" VALUE="4"/>
+          <FACET_VALUES KEY="Crowcroft, Jon" VALUE="14"/>
+          <FACET_VALUES KEY="Andersson, Gerhard" VALUE="112"/>
+          <FACET_VALUES KEY="Lisboa B,Carmen" VALUE="20"/>
+          <FACET_VALUES KEY="Zamora,J" VALUE="13"/>
+          <FACET_VALUES KEY="Cordero T,Jaime" VALUE="15"/>
+          <FACET_VALUES KEY="Olave,E" VALUE="34"/>
+          <FACET_VALUES KEY="BURROWS A,RAQUEL" VALUE="22"/>
+          <FACET_VALUES KEY="Prewitt, Elaine" VALUE="1"/>
+          <FACET_VALUES KEY="Dear, Blake F." VALUE="5"/>
+          <FACET_VALUES KEY="DEVILAT B,MARCELO" VALUE="14"/>
+          <FACET_VALUES KEY="SAIEH A,CARLOS" VALUE="24"/>
+          <FACET_VALUES KEY="Robnett, Belinda" VALUE="3"/>
+          <FACET_VALUES KEY="Krukowski, Rebecca" VALUE="1"/>
+          <FACET_VALUES KEY="Giles, Jim" VALUE="46"/>
+          <FACET_VALUES KEY="Spijkerman, Renske" VALUE="3"/>
+          <FACET_VALUES KEY="Craske, Michelle G." VALUE="8"/>
+          <FACET_VALUES KEY="Muzzo B,Santiago" VALUE="30"/>
+          <FACET_VALUES KEY="West, Delia" VALUE="1"/>
+          <FACET_VALUES KEY="Reichhardt, Tony" VALUE="2"/>
+          <FACET_VALUES KEY="Olivares G,Manuel" VALUE="18"/>
+          <FACET_VALUES KEY="Johnston, Luke" VALUE="6"/>
+          <FACET_VALUES KEY="Schwencke, Genevieve" VALUE="2"/>
+        </FACET>
+      </FACETLIST>
+      <DOCSET TOTALHITS="200744" HITS="" FIRSTHIT="20" LASTHIT="29">
+        <DOC RANK="0.43749967" ID="732186" NO="20" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0716-10182001000400011</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0716-10182001000400011</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Bacillus anthracis: Una larga historia de terror</title>
+                <creator>LEDERMANN D,WALTER</creator>
+                <publisher>Revista chilena de infectología</publisher>
+                <creationdate>2001</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>2</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>LEDERMANN D,WALTER</creatorcontrib>
+                <title>Bacillus anthracis: Una larga historia de terror</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0716-10182001000400011</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2001</creationdate>
+                <startdate>20010101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Bacillus anthracis: Una larga historia de terror</title>
+                <creationdate>2001</creationdate>
+                <author>LEDERMANN D,WALTER</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>2001</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>LEDERMANN D,WALTER</creatorcontrib>
+                <frbrgroupid>40037010</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>bacillusanthracisunalargahistoriadeterrorCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytledermann d walter$$AA</k1>
+                <k3>$$Kconicytbacillus anthracis una larga historia de terror$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>LEDERMANN D,WALTER</au>
+                <atitle>Bacillus anthracis: Una larga historia de terror</atitle>
+                <date>2001-01-01</date>
+                <risdate>2001-01-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Revista chilena de infectología</pub>
+              </addata>
+              <browse>
+                <author>$$DLEDERMANN D,WALTER$$ELEDERMANN D,WALTER</author>
+                <title>$$DBacillus anthracis: Una larga historia de terror$$EBacillus anthracis: Una larga historia de terror</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="732552" NO="21" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0716-10182000000400011</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0716-10182000000400011</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Cincuentenario de la última epidemia de viruela en Chile</title>
+                <creator>Laval R,Enrique</creator>
+                <publisher>Revista chilena de infectología</publisher>
+                <creationdate>2000</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>2</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182000000400011$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>Laval R,Enrique</creatorcontrib>
+                <title>Cincuentenario de la última epidemia de viruela en Chile</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0716-10182000000400011</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2000</creationdate>
+                <startdate>20000101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Cincuentenario de la última epidemia de viruela en Chile</title>
+                <creationdate>2000</creationdate>
+                <author>Laval R,Enrique</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>2000</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>Laval R,Enrique</creatorcontrib>
+                <frbrgroupid>40036847</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>cincuentenariodelaultimaepidemiadeviruelaenchileCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytlaval r enrique$$AA</k1>
+                <k3>$$Kconicytcincuentenario de la ultima epidemia de viruela en chile$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>Laval R,Enrique</au>
+                <atitle>Cincuentenario de la última epidemia de viruela en Chile</atitle>
+                <date>2000-01-01</date>
+                <risdate>2000-01-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Revista chilena de infectología</pub>
+              </addata>
+              <browse>
+                <author>$$DLaval R,Enrique$$ELaval R,Enrique</author>
+                <title>$$DCincuentenario de la última epidemia de viruela en Chile$$ECincuentenario de la última epidemia de viruela en Chile</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182000000400011</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="733137" NO="22" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0717-73482002000100009</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-73482002000100009</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>PANORAMA</title>
+                <creator>Cruz M.,Edgardo</creator>
+                <publisher>Revista chilena de enfermedades respiratorias</publisher>
+                <creationdate>2002</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>9</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-73482002000100009$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>Cruz M.,Edgardo</creatorcontrib>
+                <title>PANORAMA</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-73482002000100009</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2002</creationdate>
+                <startdate>20020101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>PANORAMA</title>
+                <creationdate>2002</creationdate>
+                <author>Cruz M.,Edgardo</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>2002</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>Cruz M.,Edgardo</creatorcontrib>
+                <frbrgroupid>40037550</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>panoramaCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytcruz m edgardo$$AA</k1>
+                <k3>$$Kconicytpanorama$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>Cruz M.,Edgardo</au>
+                <atitle>PANORAMA</atitle>
+                <date>2002-01-01</date>
+                <risdate>2002-01-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Revista chilena de enfermedades respiratorias</pub>
+              </addata>
+              <browse>
+                <author>$$DCruz M.,Edgardo$$ECruz M.,Edgardo</author>
+                <title>$$DPANORAMA$$EPANORAMA</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-73482002000100009</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="733157" NO="23" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0370-41061999000300009</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0370-41061999000300009</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Caso clínico-radiológico para diagnóstico</title>
+                <creator>Moënne B.,Karla</creator>
+                <publisher>Revista chilena de pediatría</publisher>
+                <creationdate>1999</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>2</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41061999000300009$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>Moënne B.,Karla</creatorcontrib>
+                <title>Caso clínico-radiológico para diagnóstico</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0370-41061999000300009</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>1999</creationdate>
+                <startdate>19990101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Caso clínico-radiológico para diagnóstico</title>
+                <creationdate>1999</creationdate>
+                <author>Moënne B.,Karla</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>1999</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>Moënne B.,Karla</creatorcontrib>
+                <frbrgroupid>40037588</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>casoclinicoradiologicoparadiagnosticoCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytmoenne b karla$$AA</k1>
+                <k3>$$Kconicytcaso clinico radiologico para diagnostico$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>Moënne B.,Karla</au>
+                <atitle>Caso clínico-radiológico para diagnóstico</atitle>
+                <date>1999-05-01</date>
+                <risdate>1999-05-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Revista chilena de pediatría</pub>
+              </addata>
+              <browse>
+                <author>$$DMoënne B.,Karla$$EMoënne B.,Karla</author>
+                <title>$$DCaso clínico-radiológico para diagnóstico$$ECaso clínico-radiológico para diagnóstico</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41061999000300009</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="733262" NO="24" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0717-73482002000100006</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-73482002000100006</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Caso Radiológico Adulto</title>
+                <creator>FUENTEALBA T.,ISABEL; RETAMAL P.,VICTOR; SABBAGH P.,EDUARDO</creator>
+                <publisher>Revista chilena de enfermedades respiratorias</publisher>
+                <creationdate>2002</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>4</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-73482002000100006$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>FUENTEALBA T.,ISABEL</creatorcontrib>
+                <creatorcontrib>RETAMAL P.,VICTOR</creatorcontrib>
+                <creatorcontrib>SABBAGH P.,EDUARDO</creatorcontrib>
+                <title>Caso Radiológico Adulto</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-73482002000100006</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2002</creationdate>
+                <startdate>20020101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Caso Radiológico Adulto</title>
+                <creationdate>2002</creationdate>
+                <author>FUENTEALBA T.,ISABEL; RETAMAL P.,VICTOR; SABBAGH P.,EDUARDO</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>2002</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>FUENTEALBA T.,ISABEL</creatorcontrib>
+                <creatorcontrib>RETAMAL P.,VICTOR</creatorcontrib>
+                <creatorcontrib>SABBAGH P.,EDUARDO</creatorcontrib>
+                <frbrgroupid>40037534</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>casoradiologicoadultoCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytfuentealba t isabel$$AA</k1>
+                <k1>$$Kconicytretamal p victor$$AA</k1>
+                <k1>$$Kconicytsabbagh p eduardo$$AA</k1>
+                <k3>$$Kconicytcaso radiologico adulto$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>FUENTEALBA T.,ISABEL</au>
+                <au>RETAMAL P.,VICTOR</au>
+                <au>SABBAGH P.,EDUARDO</au>
+                <atitle>Caso Radiológico Adulto</atitle>
+                <date>2002-01-01</date>
+                <risdate>2002-01-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Revista chilena de enfermedades respiratorias</pub>
+              </addata>
+              <browse>
+                <author>$$DFUENTEALBA T.,ISABEL$$EFUENTEALBA T.,ISABEL</author>
+                <author>$$DRETAMAL P.,VICTOR$$ERETAMAL P.,VICTOR</author>
+                <author>$$DSABBAGH P.,EDUARDO$$ESABBAGH P.,EDUARDO</author>
+                <title>$$DCaso Radiológico Adulto$$ECaso Radiológico Adulto</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-73482002000100006</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="733710" NO="25" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0717-73482002000100007</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-73482002000100007</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Caso Radiológico Pediátrico</title>
+                <creator>ZUÑIGA R.,SERGIO; BUSTOS A.,ALEJANDRO; PEREZ E.,HECTOR; SANCHEZ D.,IGNACIO; GARCIA B.,CRISTIAN</creator>
+                <publisher>Revista chilena de enfermedades respiratorias</publisher>
+                <creationdate>2002</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>8</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-73482002000100007$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>ZUÑIGA R.,SERGIO</creatorcontrib>
+                <creatorcontrib>BUSTOS A.,ALEJANDRO</creatorcontrib>
+                <creatorcontrib>PEREZ E.,HECTOR</creatorcontrib>
+                <creatorcontrib>SANCHEZ D.,IGNACIO</creatorcontrib>
+                <creatorcontrib>GARCIA B.,CRISTIAN</creatorcontrib>
+                <title>Caso Radiológico Pediátrico</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-73482002000100007</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2002</creationdate>
+                <startdate>20020101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Caso Radiológico Pediátrico</title>
+                <creationdate>2002</creationdate>
+                <author>ZUÑIGA R.,SERGIO; BUSTOS A.,ALEJANDRO; PEREZ E.,HECTOR; SANCHEZ D.,IGNACIO; GARCIA B.,CRISTIAN</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>2002</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>ZUÑIGA R.,SERGIO</creatorcontrib>
+                <creatorcontrib>BUSTOS A.,ALEJANDRO</creatorcontrib>
+                <creatorcontrib>PEREZ E.,HECTOR</creatorcontrib>
+                <creatorcontrib>SANCHEZ D.,IGNACIO</creatorcontrib>
+                <creatorcontrib>GARCIA B.,CRISTIAN</creatorcontrib>
+                <frbrgroupid>40037539</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>casoradiologicopediatricoCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytzuniga r sergio$$AA</k1>
+                <k1>$$Kconicytbustos a alejandro$$AA</k1>
+                <k1>$$Kconicytperez e hector$$AA</k1>
+                <k1>$$Kconicytsanchez d ignacio$$AA</k1>
+                <k1>$$Kconicytgarcia b cristian$$AA</k1>
+                <k3>$$Kconicytcaso radiologico pediatrico$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>ZUÑIGA R.,SERGIO</au>
+                <au>BUSTOS A.,ALEJANDRO</au>
+                <au>PEREZ E.,HECTOR</au>
+                <au>SANCHEZ D.,IGNACIO</au>
+                <au>GARCIA B.,CRISTIAN</au>
+                <atitle>Caso Radiológico Pediátrico</atitle>
+                <date>2002-01-01</date>
+                <risdate>2002-01-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Revista chilena de enfermedades respiratorias</pub>
+              </addata>
+              <browse>
+                <author>$$DZUÑIGA R.,SERGIO$$EZUÑIGA R.,SERGIO</author>
+                <author>$$DBUSTOS A.,ALEJANDRO$$EBUSTOS A.,ALEJANDRO</author>
+                <author>$$DPEREZ E.,HECTOR$$EPEREZ E.,HECTOR</author>
+                <author>$$DSANCHEZ D.,IGNACIO$$ESANCHEZ D.,IGNACIO</author>
+                <author>$$DGARCIA B.,CRISTIAN$$EGARCIA B.,CRISTIAN</author>
+                <title>$$DCaso Radiológico Pediátrico$$ECaso Radiológico Pediátrico</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-73482002000100007</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="733928" NO="26" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0717-69962002005000020</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-69962002005000020</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Dos Conversaciones: Richard Sennett Charles Correa</title>
+                <creator>Lipthay,Antonio; Graham,Justine</creator>
+                <publisher>ARQ (Santiago)</publisher>
+                <creationdate>2002</creationdate>
+                <format>text/html</format>
+                <language>eng</language>
+                <source>conicyt_scielocl</source>
+                <version>2</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-69962002005000020$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>Lipthay,Antonio</creatorcontrib>
+                <creatorcontrib>Graham,Justine</creatorcontrib>
+                <title>Dos Conversaciones: Richard Sennett Charles Correa</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-69962002005000020</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2002</creationdate>
+                <startdate>20020101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Dos Conversaciones: Richard Sennett Charles Correa</title>
+                <creationdate>2002</creationdate>
+                <author>Lipthay,Antonio; Graham,Justine</author>
+              </sort>
+              <facets>
+                <language>eng</language>
+                <creationdate>2002</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>Lipthay,Antonio</creatorcontrib>
+                <creatorcontrib>Graham,Justine</creatorcontrib>
+                <frbrgroupid>40038831</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>dosconversacionesrichardsennettcharlescorreaCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytlipthay antonio$$AA</k1>
+                <k1>$$Kconicytgraham justine$$AA</k1>
+                <k3>$$Kconicytdos conversaciones richard sennett charles correa$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>Lipthay,Antonio</au>
+                <au>Graham,Justine</au>
+                <atitle>Dos Conversaciones: Richard Sennett Charles Correa</atitle>
+                <date>2002-03-01</date>
+                <risdate>2002-03-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>ARQ (Santiago)</pub>
+              </addata>
+              <browse>
+                <author>$$DLipthay,Antonio$$ELipthay,Antonio</author>
+                <author>$$DGraham,Justine$$EGraham,Justine</author>
+                <title>$$DDos Conversaciones: Richard Sennett Charles Correa$$EDos Conversaciones: Richard Sennett Charles Correa</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-69962002005000020</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="734074" NO="27" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0370-41061999000500010</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0370-41061999000500010</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Caso clínico-radiológico para diagnóstico</title>
+                <creator>Arce V.,José Domingo</creator>
+                <publisher>Revista chilena de pediatría</publisher>
+                <creationdate>1999</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>2</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41061999000500010$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>Arce V.,José Domingo</creatorcontrib>
+                <title>Caso clínico-radiológico para diagnóstico</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0370-41061999000500010</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>1999</creationdate>
+                <startdate>19990101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Caso clínico-radiológico para diagnóstico</title>
+                <creationdate>1999</creationdate>
+                <author>Arce V.,José Domingo</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>1999</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>Arce V.,José Domingo</creatorcontrib>
+                <frbrgroupid>40038723</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>casoclinicoradiologicoparadiagnosticoCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytarce v jose domingo$$AA</k1>
+                <k3>$$Kconicytcaso clinico radiologico para diagnostico$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>Arce V.,José Domingo</au>
+                <atitle>Caso clínico-radiológico para diagnóstico</atitle>
+                <date>1999-09-01</date>
+                <risdate>1999-09-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Revista chilena de pediatría</pub>
+              </addata>
+              <browse>
+                <author>$$DArce V.,José Domingo$$EArce V.,José Domingo</author>
+                <title>$$DCaso clínico-radiológico para diagnóstico$$ECaso clínico-radiológico para diagnóstico</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0370-41061999000500010</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="734585" NO="28" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0717-69962002005000001</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-69962002005000001</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Editorial</title>
+                <creator>Palmer Trias,Montserrat</creator>
+                <publisher>ARQ (Santiago)</publisher>
+                <creationdate>2002</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>5</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-69962002005000001$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>Palmer Trias,Montserrat</creatorcontrib>
+                <title>Editorial</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0717-69962002005000001</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2002</creationdate>
+                <startdate>20020101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Editorial</title>
+                <creationdate>2002</creationdate>
+                <author>Palmer Trias,Montserrat</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>2002</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>Palmer Trias,Montserrat</creatorcontrib>
+                <frbrgroupid>40038750</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>editorialCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytpalmer trias montserrat$$AA</k1>
+                <k3>$$Kconicyteditorial$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>Palmer Trias,Montserrat</au>
+                <atitle>Editorial</atitle>
+                <date>2002-03-01</date>
+                <risdate>2002-03-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>ARQ (Santiago)</pub>
+              </addata>
+              <browse>
+                <author>$$DPalmer Trias,Montserrat$$EPalmer Trias,Montserrat</author>
+                <title>$$DEditorial$$EEditorial</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0717-69962002005000001</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+        <DOC RANK="0.43749967" ID="734617" NO="29" SITEID="" LOCAL="true" SEARCH_ENGINE="Local Search Engine" SEARCH_ENGINE_TYPE="Local Search Engine">
+          <PrimoNMBib xmlns="http://www.exlibrisgroup.com/xsd/primo/primo_nm_bib" xmlns:sear="http://www.exlibrisgroup.com/xsd/jaguar/search">
+            <record>
+              <control>
+                <sourcerecordid>S0718-00122001000200001</sourcerecordid>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0718-00122001000200001</recordid>
+                <sourceformat>Digital Entity</sourceformat>
+                <sourcesystem>Other</sourcesystem>
+              </control>
+              <display>
+                <type>article</type>
+                <title>Presentación</title>
+                <creator>NOGUEIRA ALCALÁ,HUMBERTO</creator>
+                <publisher>Ius et Praxis</publisher>
+                <creationdate>2001</creationdate>
+                <format>text/html</format>
+                <language>spa</language>
+                <source>conicyt_scielocl</source>
+                <version>7</version>
+              </display>
+              <links>
+                <linktorsrc>$$Uhttp://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0718-00122001000200001$$DEnlace al artículo</linktorsrc>
+              </links>
+              <search>
+                <creatorcontrib>NOGUEIRA ALCALÁ,HUMBERTO</creatorcontrib>
+                <title>Presentación</title>
+                <general>text/html</general>
+                <sourceid>conicyt_scielocl</sourceid>
+                <recordid>conicyt_scieloclS0718-00122001000200001</recordid>
+                <rsrctype>article</rsrctype>
+                <format>text/html</format>
+                <creationdate>2001</creationdate>
+                <startdate>20010101</startdate>
+                <searchscope>conicyt_scielocl</searchscope>
+                <scope>conicyt_scielocl</scope>
+              </search>
+              <sort>
+                <title>Presentación</title>
+                <creationdate>2001</creationdate>
+                <author>NOGUEIRA ALCALÁ,HUMBERTO</author>
+              </sort>
+              <facets>
+                <language>spa</language>
+                <creationdate>2001</creationdate>
+                <collection>Scielo Chile</collection>
+                <toplevel>scielo_chile</toplevel>
+                <prefilter>articles</prefilter>
+                <rsrctype>articles</rsrctype>
+                <creatorcontrib>NOGUEIRA ALCALÁ,HUMBERTO</creatorcontrib>
+                <frbrgroupid>40038791</frbrgroupid>
+                <frbrtype>5</frbrtype>
+              </facets>
+              <dedup>
+                <t>3</t>
+                <c3>presentacionCONICYT</c3>
+              </dedup>
+              <frbr>
+                <t>1</t>
+                <k1>$$Kconicytnogueira alcala humberto$$AA</k1>
+                <k3>$$Kconicytpresentacion$$AT</k3>
+              </frbr>
+              <delivery>
+                <delcategory>Online Resource</delcategory>
+              </delivery>
+              <ranking>
+                <booster1>1</booster1>
+                <booster2>1</booster2>
+              </ranking>
+              <addata>
+                <au>NOGUEIRA ALCALÁ,HUMBERTO</au>
+                <atitle>Presentación</atitle>
+                <date>2001-01-01</date>
+                <risdate>2001-01-01</risdate>
+                <format>journal</format>
+                <genre>article</genre>
+                <ristype>JOUR</ristype>
+                <pub>Ius et Praxis</pub>
+              </addata>
+              <browse>
+                <author>$$DNOGUEIRA ALCALÁ,HUMBERTO$$ENOGUEIRA ALCALÁ,HUMBERTO</author>
+                <title>$$DPresentación$$EPresentación</title>
+              </browse>
+            </record>
+          </PrimoNMBib>
+          <GETIT deliveryCategory="Online Resource" GetIt1="http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0716-10182001000400011" GetIt2="http://200.38.75.91/sfxcnt41?ctx_ver=Z39.88-2004&amp;ctx_enc=info:ofi/enc:UTF-8&amp;ctx_tim=2013-12-13T14%3A00%3A42IST&amp;url_ver=Z39.88-2004&amp;url_ctx_fmt=infofi/fmt:kev:mtx:ctx&amp;rfr_id=info:sid/primo.exlibrisgroup.com:primo3-Journal-conicyt_scielocl&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft.genre=article&amp;rft.atitle=Bacillus%20anthracis:%20Una%20larga%20historia%20de%20terror&amp;rft.jtitle=&amp;rft.btitle=&amp;rft.aulast=&amp;rft.auinit=&amp;rft.auinit1=&amp;rft.auinitm=&amp;rft.ausuffix=&amp;rft.au=LEDERMANN%20D%2CWALTER&amp;rft.aucorp=&amp;rft.volume=&amp;rft.issue=&amp;rft.part=&amp;rft.quarter=&amp;rft.ssn=&amp;rft.spage=&amp;rft.epage=&amp;rft.pages=&amp;rft.artnum=&amp;rft.issn=&amp;rft.eissn=&amp;rft.isbn=&amp;rft.sici=&amp;rft.coden=&amp;rft_id=info:doi/&amp;rft.object_id=&amp;rft_dat=&lt;conicyt_scielocl>S0716-10182001000400011&lt;/conicyt_scielocl>&amp;rft.eisbn=&amp;rft_id=info:oai/"/>
+          <LINKS>
+            <linktorsrc>http://www.scielo.cl/scielo.php?script=sci_arttext&amp;pid=S0718-00122001000200001</linktorsrc>
+            <thumbnail/>
+          </LINKS>
+        </DOC>
+      </DOCSET>
+    </RESULT>
+  </JAGROOT>
+</SEGMENTS>

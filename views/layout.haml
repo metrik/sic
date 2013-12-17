@@ -1,0 +1,39 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    %meta{content: "", name: "description"}/
+    %meta{content: "", name: "author"}/
+    %title= yield_content(:title) || "SIC"
+    / Bootstrap core CSS. Prefer CDN versions (commented out)
+    /= stylesheet_link_tag "bootstrap.min.css"
+    = stylesheet_link_tag "http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css"
+    /= stylesheet_link_tag "font-awesome/css/font-awesome.min.css"
+    = stylesheet_link_tag "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    = stylesheet_link_tag "#{asset_server}/stylesheets/all.css"
+    / Custom styles for this template
+    / Just for debugging purposes. Don't actually copy this line!
+    /[if lt IE 9] <script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script>
+    / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    = yield_content(:scripts)
+
+  %body{:class => yield_content(:site) || "site-sic"}
+    = partial "_header"
+    #wrap
+      = yield
+    / /container
+    = partial "_footer"
+    /
+      Bootstrap core JavaScript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
+    = javascript_include_tag "https://code.jquery.com/jquery-1.10.2.min.js"
+    = javascript_include_tag "http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"
+    :javascript
+      $('#search_header').focus(function(){$('#search_advanced').slideDown({duration:100});});
+      $('#search_header').focusout(function(){$('#search_advanced').slideUp({duration:100});});

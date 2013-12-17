@@ -1,0 +1,82 @@
+- content_for :site do
+  site-repo
+
+.page-header
+  .container
+    %h1
+      Proyectos de Biotecnología
+
+- collections = ["2013", "2012", "2011", "2010", "2009"]
+
+.container
+  %ol.breadcrumb
+    %li
+      %a{href: "#"} Inicio
+    %li
+      %a{href: "#"} Disciplinas
+    %li
+      %a{href: "#"} Proyectos de Ciencias Naturales y Aplicadas
+    %li.active Biotecnología
+  .row
+    .col-md-3
+      #sidebar{"data-spy"=>"affix", "data-offset-top"=>"180", :role => "complementary"}
+        %ul.nav
+          - collections.each do |collection|
+            %li
+              %a{href: "##{collection.gsub(/\s+/, "_").downcase}"}= collection
+        %h4 Exportar
+        %ul.nav.secondary
+          %li
+            %a{href: "#"}
+              %i.fa.fa-code.orange
+              XML
+          %li
+            %a{href: "#"}
+              %i.fa.fa-table.green
+              Excel (XLS)
+          %li
+            %a{href: "#"}
+              %i.fa.fa-table.green
+              Excel (XLSX)
+          %li
+            %a{href: "#"}
+              %i.fa.fa-table.blue
+              OpenOffice (OOS)
+    .col-md-9
+      - collections.each do |collection|
+        .panel.panel-default.collection
+          .anchor-container
+            %a.anchor{id: collection.gsub(/\s+/, "_").downcase}
+          .panel-heading
+            %h4= collection
+          .panel-body.results
+            .result
+              %p.epigraph FONDECYT REGULAR - 2011 - 1110159
+              %h4
+                %a{href: "#"}CLINICAL AND GENETIC CHARACTERIZATION OF DYSFERLINOPATHY AND RELATED PATHOLOGIES IN THE CHILEAN POPULATION
+              %p Institución responsable: Universidad de Talca / Instituto de Biologia Vegetal y Biotecnologia (IBVB)
+            .result
+              %p.epigraph FONDECYT REGULAR - 2011 - 1110159
+              %h4
+                %a{href: "#"} ELUCIDATION OF THE FIRST REGULATORY OLIGOPEPTIDES IN GRAPE
+              %p Institución responsable: Universidad de Talca / Instituto de Biologia Vegetal y Biotecnologia (IBVB)
+            .result
+              %p.epigraph FONDECYT REGULAR - 2011 - 1110159
+              %h4
+                %a{href: "#"} DEVELOPMENT OF A ANTIGEN-CHITOSAN MICROPARTICLES BASED-VACCINE AGAINST THE GONADOTROPHIN-RELEASING HORMONE (GNRH-I) AND EVALUATION OF ITS EFFECT ON ADAPTIVE IMMUNE RESPONSE AND THE BLOCKING OF STEROIDOGENESIS AND SPERMATOGENESIS IN VIVO
+              %p Institución responsable: Universidad de Talca / Instituto de Biologia Vegetal y Biotecnologia (IBVB)
+      %ul.pagination
+        %li
+          %a{href: "#"} «
+        %li.active
+          %a{href: "#"} 1
+        %li
+          %a{href: "#"} 2
+        %li
+          %a{href: "#"} 3
+        %li
+          %a{href: "#"} 4
+        %li
+          %a{href: "#"} 5
+        %li
+          %a{href: "#"} »

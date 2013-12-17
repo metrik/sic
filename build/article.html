@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <title>SIC</title>
+    <!-- Bootstrap core CSS. Prefer CDN versions (commented out) -->
+    <!-- = stylesheet_link_tag "bootstrap.min.css" -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- = stylesheet_link_tag "font-awesome/css/font-awesome.min.css" -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Custom styles for this template -->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]> <script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script> <![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body class='site-scielo'>
+    <div class='navbar common-header'>
+      <div class='container'>
+        <ul class='nav navbar-nav'>
+          <li class='sic'>
+            <a href='#sic'>Red SIC:</a>
+          </li>
+          <li class='scielo collapse'>
+            <a href='#scielo'>SciELO</a>
+          </li>
+          <li class='beic collapse'>
+            <a href='#beic'>Beic</a>
+          </li>
+          <li class='repo collapse'>
+            <a href='#repo'>Repo. Institucional</a>
+          </li>
+          <li class='productividad collapse'>
+            <a href='#productividad'>Productividad Científica</a>
+          </li>
+          <li class='investigador collapse'>
+            <a href='#portal'>Portal del Investigador</a>
+          </li>
+          <li class='redciencia collapse'>
+            <a href='#redciencia'>Red Ciencia</a>
+          </li>
+          <li class='dropdown'>
+            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+              Red Sic
+              &nbsp;
+              <i class='fa fa-caret-down'></i>
+            </a>
+            <ul class='dropdown-menu'>
+              <li>
+                <a href='#about'><img src="images/beic.png" /></a>
+              </li>
+              <li>
+                <a href='#about'><img src="images/scielo.png" /></a>
+              </li>
+              <li>
+                <a href='#about'><img src="images/repo.png" /></a>
+              </li>
+              <li>
+                <a href='#about'><img src="images/productividad.png" /></a>
+              </li>
+              <li>
+                <a href='#about'><img src="images/investigador.png" /></a>
+              </li>
+              <li>
+                <a href='#about'><img src="images/redciencia.png" /></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div data-offset-top='34' data-spy='affix' id='top'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-xs-7'>
+            <ul class='nav nav-pills sitenav'>
+              <li class='home'>
+                <a></a>
+              </li>
+              <li class='active'>
+                <a href='#'>
+                  <i class='fa fa-home'></i>
+                </a>
+              </li>
+              <li>
+                <a href='#about'>Personas</a>
+              </li>
+              <li>
+                <a href='#contact'>Métricas</a>
+              </li>
+              <li>
+                <a href='#contact'>Biblioteca</a>
+              </li>
+            </ul>
+          </div>
+          <div class='col-xs-2'>
+            <ul class='nav nav-pills lang'>
+              <li class='dropdown'>
+                <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+                  Español
+                  <b class='caret'></b>
+                </a>
+                <ul class='dropdown-menu pull-right'>
+                  <li>
+                    <a href='#'>English</a>
+                  </li>
+                  <li>
+                    <a href='#'>Português</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class='col-xs-3'>
+            <div class='site-search'>
+              <form action='/sinatra/search.html' method='post'>
+                <i class='fa fa-search'></i>
+                <input class='form-control' id='search_header' name='query' placeholder='Buscar revistas, artículos...' type='text'>
+                <div id='search_advanced' style='display:none'>
+                  <img width="50" class="right" src="images/sic-single.png" />
+                  <a href='http://www.informacioncientifica.cl'>Búsqueda avanzada</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id='wrap'>
+      <div class='page-header'>
+        <div class='container'>
+          <h2>
+            Research Article
+          </h2>
+        </div>
+      </div>
+      <div class='container'>
+        <ol class='breadcrumb'>
+          <li>
+            <a href='#'>Inicio</a>
+          </li>
+          <li>
+            <a href='#'>Biotecnología</a>
+          </li>
+        </ol>
+        <div class='row'>
+          <div class='col-md-3'>
+            <div data-offset-bottom='460' data-offset-top='169' data-spy='affix' id='sidebar' role='complementary'>
+              <ul class='nav secondary'>
+                <li>
+                  <a href='#'>
+                    <i class='fa fa-flag orange'></i>
+                    English version
+                  </a>
+                  <a href='#'>
+                    <i class='fa fa-download red'></i>
+                    PDF (Español)
+                    <span class='indicator'>54 Kb</span>
+                  </a>
+                </li>
+                <li class='separator'></li>
+                <li>
+                  <a href='#references'>
+                    <i class='fa fa-arrow-right blue'></i>
+                    Referencias (18)
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i class='fa fa-sign-in orange'></i>
+                    Artículos que citan aquí (9)
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i class='fa fa-quote-left green'></i>
+                    Cómo citar este artículo
+                  </a>
+                </li>
+                <li class='separator'></li>
+                <li>
+                  <a href='#'>
+                    <i class='fa fa-link orange'></i>
+                    Permalink
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i class='fa fa-envelope blue'></i>
+                    Enviar por e-mail
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i class='fa fa-twitter blue-light'></i>
+                    Compartir en Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <i class='fa fa-linkedin-square blue-light'></i>
+                    Compartir en Linkedin
+                  </a>
+                </li>
+                <li class='separator'></li>
+                <li>
+                  <a href='#' title='Ver métricas de este artículo'>
+                    <i class='fa fa-bar-chart-o'></i>
+                    3580 visitas
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class='col-md-9'>
+            <div class='article'>
+              <p class='epigraph'>Electronic Journal of Biotechnology</p>
+              <h1>Optimization of phenoxazinone synthase production by response surface methodology and its application in Congo red decolourization</h1>
+              <p class='author'>
+                <strong>Honghua Jia*<sup>1</sup> · Zhen Gao<sup>1</sup> · Yingying Ma<sup>1</sup> · Chao Zhong<sup>1</sup> · Yingchun Xie<sup>1</sup> · Hua Zhou<sup>1</sup> · Ping Wei<sup>1</sup></strong>
+                <sup>1</sup>Nanjing University of Technology, College of Biotechnology and Pharmaceutical Engineering, Nanjing, P.R. China
+              </p>
+              <p class='meta'>
+                <span>
+                  <i class='fa fa-unlock'></i>
+                  Acceso abierto
+                </span>
+                <span>
+                  <i class='fa fa-pencil'></i>
+                  Revisado por pares
+                </span>
+              </p>
+              <p class='summary'>Enzymatic decolourization has been recently proposed as a promising and eco-friendly method for treatment of synthetic dye-contaminated wastewaters.</p>
+              <p class='keywords'>
+                <strong>Keywords:</strong>
+                <a>phenoxazinone,</a>
+                <a>decolourization,</a>
+                <a>enzymes,</a>
+                <a>wastewater</a>
+              </p>
+              <div class='jump-list'>
+                <ul class='nav nav-pills'>
+                  <li class='menulabel'>Saltar a:</li>
+                  <li>
+                    <a href='#abstract'>
+                      <i class='fa fa-list'></i>
+                      Abstract
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#article'>
+                      <i class='fa fa-file-o'></i>
+                      Artículo
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#references'>
+                      <i class='fa fa-sign-in'></i>
+                      Referencias
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#article'>
+                      <i class='fa fa-book'></i>
+                      Acerca de la revista
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class='article-body'>
+                <div class='abstract'>
+                  <h3>Abstract</h3>
+                  <p>
+                    <strong>Background:</strong>
+                    Enzymatic decolourization has been recently proposed as a promising and eco-friendly method for treatment of synthetic dye-contaminated wastewaters. However, the processes require large quantities of enzymes, attracting significant attention in developing efficient methods for mass production of multifunctional enzymes. Several methods such as response surface methodology (RSM) and orthogonal experiment have been applied to optimize the parameters in bioprocesses for enzyme production.
+                  </p>
+                  <p>
+                    <strong>Methods:</strong>
+                    Enzymatic decolourization has been recently proposed as a promising and eco-friendly method for treatment of synthetic dye-contaminated wastewaters. However, the processes require large quantities of enzymes, attracting significant attention in developing efficient methods for mass production of multifunctional enzymes. Several methods such as response surface methodology (RSM) and orthogonal experiment have been applied to optimize the parameters in bioprocesses for enzyme production.
+                  </p>
+                </div>
+                <p>Construido como apéndice de un pequeño bar costero, a metros de la célebre casa de Eileen Gray en Cap Martin, el Cabanon es tan edificio como mueble, y condensa toda la complejidad que las escalas de la madera plantean.</p>
+                <div class='figure' id='fig-1'>
+                  <img src="images/images/example-figure.png" />
+                  <div class='caption'>
+                    Fig. 1 - Mapa del mundo.
+                  </div>
+                </div>
+                <p>¿Cómo abordar la madera desde una perspectiva contemporánea? Dejando de lado los atributos que la hacen tan atractiva para los promotores de la hoy ineludible sostenibilidad (bajo un manejo adecuado, la madera es un recurso renovable, biodegradable y reciclable) la hipótesis que esta edición plantea es que, quizá, y justamente gracias a esta versatilidad escalar, la madera ofrecería la rara oportunidad de resolver el proyecto de arquitectura con igual contundencia tanto en los frentes que plantea la construcción y la ingeniería como en los asuntos de la cualidad atmosférica y sensorial del espacio.</p>
+                <!-- Example formatting, just to test styles normalization -->
+                <h3>
+                  <font color='#cc0000' face='Verdana' size='325'>Concluding Remarks</font>
+                </h3>
+                <p align='right' style='text-align: right'>Este número de ARQ se detiene particularmente en proyectos y artículos que dan cuenta, simultáneamente, de esa doble escala de la madera. Por una parte, se trata de una materia capaz de desplegar una notable potencia estructural, en algunos casos llegando al punto de las grandes luces y de la edificación en mediana altura. En el otro extremo, la madera aparece como fértil terreno para el desarrollo del detalle, gracias a su condición táctil -en cuanto materia sensual, liviana y cercana en su medida a la mano- y sus propiedades plásticas: cálida, colorida, aromática, moldeable, precisa. Lo interesante es que esta combinación escalar puede existir desde la economía de medios materiales y usando tecnologías de bajo impacto, como en el notable ejemplo de la casa Cúpula de Buckminster Fuller, presentada lúcidamente en el ensayo que abre este número.</p>
+                <p>Dos proyectos de título ejemplifican caminos de desarrollo que, desde el prototipo constructivo o el proyecto edilicio, exploran las posibilidades expresivas y estructurales de la madera y que, al igual que la bóveda de lamelas o el conjunto de viviendas en Constitución, plantean un uso del material capaz de abordar magnitudes de orden mayor.</p>
+                <div id='references'>
+                  <h3>References</h3>
+                  <p class='ref' id='ref-1'>
+                    <a href='#'>[1]</a>
+                    BALDRIAN, P. (2006). Fungal laccases - occurrence and properties.
+                    <em>FEMS Microbiology Reviews, vol. 30, no. 2, p. 215-242.</em>
+                    <a href='#'>CrossRef</a>
+                    -
+                    <a href='#'>Links</a>
+                  </p>
+                  <p class='ref' id='ref-2'>
+                    <a href='#'>[2]</a>
+                    BALDRIAN, P. (2006). Fungal laccases - occurrence and properties.
+                    <em>FEMS Microbiology Reviews, vol. 30, no. 2, p. 215-242.</em>
+                    <a href='#'>CrossRef</a>
+                    -
+                    <a href='#'>Links</a>
+                  </p>
+                </div>
+              </div>
+              <div class='about'>
+                <h3>Acerca de la revista</h3>
+                <p>
+                  <strong>
+                    <a href='#'>Electronic Journal of Biotechnology</a>
+                  </strong>
+                  <br>
+                  ISSN: 0717-3458
+                  <br>
+                  Vol. 16 No. 5, Issue of September 15, 2013
+                  <br>
+                  © 2013 by Pontificia Universidad Católica de Valparaíso -- Chile
+                  <br>
+                  Received March 16, 2013 / Accepted June 24, 2013
+                  <br>
+                  DOI: 10.2225/vol16-issue5-fulltext-11
+                </p>
+                <p>
+                  <a href='#'>Ver este número</a>
+                  |
+                  <a href='#'>Todos los números</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='article-related'>
+          <h3>Artículos relacionados</h3>
+          <div class='row'>
+            <div class='col-md-4'>
+              <p class='epigraph'>Research Article</p>
+              <h4>
+                <a href='#'>Optimization of phenoxazinone synthase production by response surface methodology</a>
+              </h4>
+              <p>
+                <em>Electronic Journal of Biotechnology</em>
+              </p>
+            </div>
+            <div class='col-md-4'>
+              <p class='epigraph'>Research Article</p>
+              <h4>
+                <a href='#'>Response surface methodology and its application in Congo red decolourization</a>
+              </h4>
+              <p>
+                <em>Electronic Journal of Biotechnology</em>
+              </p>
+            </div>
+            <div class='col-md-4'>
+              <p class='epigraph'>Research Article</p>
+              <h4>
+                <a href='#'>Methodology and its application in Congo red decolourization</a>
+              </h4>
+              <p>
+                <em>Electronic Journal of Biotechnology</em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /container -->
+    <footer>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <p>
+              <a class='sic-footer' href='http://www.informacioncientifica.cl'><img width="90" src="http://localhost:4567/images/sic.png" /></a>
+            </p>
+            <p>
+              <strong>Acerca de Sic</strong>
+            </p>
+            <ul>
+              <li>
+                <a href='#'>Qué es SIC</a>
+              </li>
+              <li>
+                <a href='#'>Contáctanos</a>
+              </li>
+            </ul>
+          </div>
+          <div class='col-sm-4'>
+            <p>
+              <strong>Sitios de la Red SIC</strong>
+            </p>
+            <ul>
+              <li>
+                <a href='#about'>Beic</a>
+              </li>
+              <li>
+                <a href='#about'>Scielo</a>
+              </li>
+              <li>
+                <a href='#about'>Repositorio Institucional</a>
+              </li>
+              <li>
+                <a href='#about'>Portal de Productividad Científica</a>
+              </li>
+              <li>
+                <a href='#about'>Portal del Investigador</a>
+              </li>
+              <li>
+                <a href='#about'>Red Ciencia</a>
+              </li>
+            </ul>
+          </div>
+          <div class='col-sm-4'>
+            <p>
+              <img height="90" class="logo-conicyt" src="http://localhost:4567/images/logo-conicyt.png" />
+              <strong>CONICYT - CHILE</strong>
+              <br>
+              Canadá 308 - Providencia
+              <br>
+              Santiago - Chile
+              <br>
+              Tel.: +56 2 2365-4400
+            </p>
+            <p class='clear'>
+              <br>
+              <a href='#'>
+                <i class='fa fa-twitter'></i>
+                Twitter: @sic_chile
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--
+      Bootstrap core JavaScript
+      ==================================================
+    -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js" type="text/javascript"></script>
+    <script>
+      $('#search_header').focus(function(){$('#search_advanced').slideDown({duration:100});});
+      $('#search_header').focusout(function(){$('#search_advanced').slideUp({duration:100});});
+    </script>
+  </body>
+</html>

@@ -3,7 +3,7 @@
     .row
       .col-sm-4
         %p
-          %a.sic-footer{href: "http://www.informacioncientifica.cl"}= image_tag "http://localhost:4567/images/sic.png", :width => 90
+          %a.sic-footer{href: "http://www.informacioncientifica.cl"}= image_tag "#{asset_server}/images/sic.png", :width => 90
         %p
           %strong Acerca de Sic
         %ul
@@ -29,7 +29,7 @@
             %a{href: "#about"} Red Ciencia
       .col-sm-4
         %p
-          = image_tag "http://localhost:4567/images/logo-conicyt.png", :height => 90, :class => "logo-conicyt"
+          = image_tag "#{asset_server}/images/logo-conicyt.png", :height => 90, :class => "logo-conicyt"
           %strong CONICYT - CHILE
           %br
           Canadá 308 - Providencia

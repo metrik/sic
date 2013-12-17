@@ -1,9 +1,17 @@
+GIT
+  remote: git://github.com/rtomayko/tilt.git
+  revision: 35129ad0b9895eef4e5b1a0b7053d4617f13aa71
+  ref: 35129ad0b9895eef4e5b1a0b7053d4617f13aa71
+  specs:
+    tilt (1.3.7)
+
 GEM
   remote: http://rubygems.org/
   specs:
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    backports (3.3.5)
     chunky_png (1.2.9)
     coffee-script (2.2.0)
       coffee-script-source
@@ -24,7 +32,11 @@ GEM
     http_router (0.10.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
+    httparty (0.12.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.1)
+    json (1.8.1)
     listen (0.7.3)
     maruku (0.6.1)
       syntax (>= 1.0.0)
@@ -59,7 +71,11 @@ GEM
       sprockets (~> 2.1)
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
+    mini_portile (0.5.2)
     multi_json (1.8.2)
+    multi_xml (0.5.5)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -80,6 +96,18 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.3)
       tilt (~> 1.3, >= 1.3.3)
+    sinatra-contrib (1.3.2)
+      backports (>= 2.0)
+      eventmachine
+      rack-protection
+      rack-test
+      sinatra (~> 1.3.0)
+      tilt (~> 1.3)
+    sinatra-env (0.0.2)
+    sinatra-partial (0.4.0)
+      sinatra
+    sinatra-static-assets (1.0.4)
+      sinatra (>= 1.1.0)
     sprockets (2.10.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -96,16 +124,28 @@ GEM
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
     thor (0.15.4)
-    tilt (1.3.7)
     uglifier (1.2.7)
       execjs (>= 0.3.0)
       multi_json (~> 1.3)
     url_mount (0.2.1)
       rack
+    will_paginate (3.0.5)
+    will_paginate-bootstrap (1.0.0)
+      will_paginate (>= 3.0.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  httparty
   middleman (~> 3.0.0)
+  nokogiri
+  sinatra
+  sinatra-contrib
+  sinatra-env
+  sinatra-partial
+  sinatra-static-assets
   thin
+  tilt!
+  will_paginate (~> 3.0.5)
+  will_paginate-bootstrap

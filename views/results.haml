@@ -1,0 +1,117 @@
+- content_for :site do
+  site-scielo
+
+.page-header
+  .container
+    = partial "search_small"
+
+.container
+  .row
+    .col-md-3
+      #sidebar{"data-spy"=>"affix", "data-offset-top"=>"115", :role => "complementary"}
+        %ul.nav
+          %li
+        %h4 Refinar resultados
+        %p
+          %strong Colección
+        %ul.nav.secondary
+          %li
+            %a{href: "#"}
+              SciVerse ScienceDirect (Elsevier)
+              %span.indicator 32145
+          %li
+            %a{href: "#"}
+              SpringerLink
+              %span.indicator 9556
+          %li
+            %a{href: "#"}
+              nature.com (Nature Publishing Group)
+              %span.indicator 291
+          %li
+            %a{href: "#"}
+              Scielo Chile
+              %span.indicator 231
+          %li.separator
+        %p
+          %strong Tipo de recurso
+        %ul.nav.secondary
+          %li
+            %a{href: "#"}
+              SciVerse ScienceDirect (Elsevier)
+              %span.indicator 32145
+          %li
+            %a{href: "#"}
+              SpringerLink
+              %span.indicator 9556
+          %li
+            %a{href: "#"}
+              nature.com (Nature Publishing Group)
+              %span.indicator 291
+          %li
+            %a{href: "#"}
+              Scielo Chile
+              %span.indicator 2314
+    .col-md-9
+      .search-header
+        %h3 Búsqueda: "Journal" (3.860.000 resultados)
+        %ul.pagination
+          %li
+            %a{href: "#"} «
+          %li.active
+            %a{href: "#"} 1
+          %li
+            %a{href: "#"} 2
+          %li
+            %a{href: "#"} 3
+          %li
+            %a{href: "#"} 4
+          %li
+            %a{href: "#"} 5
+          %li
+            %a{href: "#"} »
+        %ul.nav.nav-pills
+          %li.menulabel Ordenar por:
+          %li.dropdown
+            %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+              Relevancia
+              %b.caret
+            %ul.dropdown-menu.pull-right
+              %li
+                %a{href: "#"} Nombre
+              %li
+                %a{href: "#"} Fecha más reciente
+      - ["Biodistribution of sub-10 nm PEG-modified radioactive/upconversion nanoparticles", "A risk analysis model for radioactive wastes", "Radioactive waste disposal", "History: Radioactive romance"].each do |title|
+        .result
+          %h4
+            %i.fa.fa-star-o
+            %a{href: "#"}= title
+          %p
+            %em.author Cao, Tianye ; Yang, Yang ; Sun, Yun ; Wu, Yongquan ; Gao, Yuan ; Feng, Wei ; Li, Fuyou
+            %br
+            %span.magazine Biomaterials, 2013, Vol.34(29), pp.7127-7134 [Revistas arbitradas]
+          %p.excerpt
+            consequences, such as the release of <strong>radioactive</strong> waste and... to analyze risks and uncertainties of a <strong>radioactive</strong>... statistical nature. Diffusion of...
+          %p.options
+            %i.fa.fa-check.green
+            Texto completo disponible
+            |
+            %a{href: "#"} Detalles
+            |
+            %a{href: "#"} Recomendaciones
+            |
+            %a{href: "#"} Todas las versiones
+      %ul.pagination
+        %li
+          %a{href: "#"} «
+        %li.active
+          %a{href: "#"} 1
+        %li
+          %a{href: "#"} 2
+        %li
+          %a{href: "#"} 3
+        %li
+          %a{href: "#"} 4
+        %li
+          %a{href: "#"} 5
+        %li
+          %a{href: "#"} »

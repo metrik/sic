@@ -1,0 +1,165 @@
+- content_for :site do
+  site-scielo
+
+.jumbotron
+  .container
+    .row
+      .col-md-2
+        .logo
+          =image_tag "scielo-transp@2x.png", width: "138", height: "130"
+      .col-md-10
+        %h1
+          La biblioteca científica por excelencia.
+        %p
+          SciELO (Scientific Electronic Library Online) es una biblioteca electrónica, parte de una red iberoamericana de colecciones de revistas científicas, de acceso
+          %strong abierto, libre y gratuito.
+        = partial "search_big"
+    .row.metrics
+      .col-sm-2
+        .number
+          %strong 37.000
+          Artículos
+      .col-sm-2
+        .number
+          %strong 320
+          Revistas
+      .col-sm-2
+        .number
+          %strong 1.280
+          Materias
+      .col-sm-6
+        .rightpanel
+          %p
+            = succeed "," do
+              %a{href: "http://www.scielo.org.ar"} Argentina
+            = succeed "," do
+              %a{href: "http://www.scielo.br"} Brasil
+            = succeed "," do
+              %a{href: "http://www.scielo.cl"} Chile
+            = succeed "," do
+              %a{href: "http://www.scielo.org.co"} Colombia
+            = succeed "," do
+              %a{href: "http://www.scielo.sld.cu"} Cuba
+            = succeed "," do
+              %a{href: "http://scielo.isciii.es"} España
+            %a{href: "http://www.scielo.oces.mcts.pt"} Portugal
+            y
+            %a{href: "http://www.scielo.org.ve"} Venezuela
+            %br
+            Pronto:
+            = succeed "," do
+              %a{href: "http://www.scielo.sa.cr"} Costa Rica
+            = succeed "," do
+              %a{href: "http://www.scielo.org.mx"} México
+            = succeed "," do
+              %a{href: "http://scielo.iics.una.py"} Paraguay
+            %a{href: "http://www.scielo.org.pe"} Perú
+            y
+            %a{href: "http://www.scielo.edu.uy"} Uruguay
+          %p
+            %a.btn.btn-primary{:href => "#", :role =>"button"} Ir a scielo.org
+.container
+  %ul.nav.nav-pills.midnav
+    %li
+      %a{:href => "#"}
+        %i.fa.fa-twitter.blue-light
+        @sic_conicyt
+    %li
+      %a{:href => "#"}
+        %i.fa.fa-twitter.blue-light
+        @redescielo (portugués)
+    %li
+      %a{:href => "#"}
+        %i.fa.fa-globe.green
+        SciELO Ciencias Sociales
+    %li
+      %a{:href => "#"}
+        %i.fa.fa-medkit.red
+        SciELO Salud Pública
+.container
+  .row
+    .col-md-4
+      %h3 Materias
+      .panel.panel-default.oursites
+        .panel-body
+          %ul.nav
+            - collections = ["Ciencias Agrícolas", "Ciencias Biológicas", "Ciencias de la Salud", "Ciencias Exactas y de la Tierra", "Ciencias Sociales Aplicadas", "Humanidades", "Ingeniería", "Lingüística, Letras y Artes"]
+            - collections.each do |collection|
+              %li
+                %a{href: "#"}= collection
+    .col-md-4
+      %h3 Los más visitados
+      %ul.nav
+        - most_visited = ["Revista Chilena de Pediatría", "Revista Chilena de Nutrición", "Revista Chilena de Infectología", "EURE (Santiago)", "Información Tecnológica", "Revista Chilena de Obstetricia y Ginecología"]
+        - most_visited.each do |m|
+          %li
+            %a{href: "#"}= m
+      %p
+        %br
+        %a.btn.btn-default{href: "#"}
+          %i.fa.fa-sort-alpha-asc.orange
+          Revistas por orden alfabético
+      %p
+        %a.btn.btn-default{href: "#"}
+          %i.fa.fa-users.green
+          Índice de autores
+    .col-md-4
+      %h3 Herramientas
+      %ul.nav
+        %li
+          %a{href: "#"}
+            %i.fa.fa-check-square-o
+            Criterios SciELO Chile
+        %li
+          %a{href: "#"}
+            %i.fa.fa-book.orange
+            Procedimientos SciELO
+        %li
+          %a{href: "#"}
+            %i.fa.fa-bolt.red
+            Tutorial SciELO
+        %li
+          %a{href: "#"}
+            %i.fa.fa-users.green
+            Índice de autores
+  .row
+    .col-md-6
+      %h3 Noticias científicas desde SIC
+      .post
+        %h4
+          %a{href:"#"}Indicadores Cienciométricos 2013
+        %p
+          Se han publicado los nuevos resultados de este informe.
+      .post
+        %h4
+          %a{href:"#"}La Nueva era de SciELO
+        %p
+          Entrevista con Abel Packer, coordinador operacional de esta plataforma.
+      .post
+        %h4
+          %a{href:"#"}Premio Scopus Chile 2013
+        %p
+          Un reconocimiento a la calidad de la producción científica en el país.
+      .post
+        %h4
+          %a{href:"#"}La Nueva era de SciELO
+        %p
+          Entrevista con Abel Packer, coordinador operacional de esta plataforma.
+      %p
+        %a.btn.btn-info{:href => "#", :role =>"button"} Ver todas las noticias en SIC»
+  %hr
+  %h4.center
+    %strong SciELO Chile es parte de la Red SIC - Conicyt de Servicios de Información Científica:
+  %ul.nav.nav-pills
+    %li
+      %a{href: "#about"}= image_tag "sic-single.png"
+    %li
+      %a{href: "#about"}= image_tag "beic.png"
+    %li
+      %a{href: "#about"}= image_tag "repo.png"
+    %li
+      %a{href: "#about"}= image_tag "productividad.png"
+    %li
+      %a{href: "#about"}= image_tag "investigador.png"
+    %li
+      %a{href: "#about"}= image_tag "redciencia.png"
