@@ -1,5 +1,4 @@
 
-
 require "sinatra"
 use Rack::CommonLogger
 require 'sinatra/contrib/all'
@@ -107,13 +106,14 @@ require "nokogiri"
     types     = type.xpath(".//xmlns:FACET_VALUES")
     @types    = types.collect{|d| {:key => d.xpath('.//@KEY').first.value, :value => d.xpath('.//@VALUE').first.value}}.sort_by{|x| x[:key]}
     doc.remove_namespaces!
-    record = doc.xpath(".//record")
+    record = doc.xpath(".//DOC")
     @records = record.collect{|r| {:title => r.xpath(".//display/title").first.text,
                                     :authors => (r.xpath(".//display/creator").first.blank?)? ' ' : r.xpath(".//display/creator").first.text.gsub(',',', '),
                                     :publisher => (r.xpath(".//display/publisher").first.blank?)? ' ': r.xpath(".//display/publisher").first.text,
                                     :creation_date => (r.xpath(".//display/creationdate").first.blank?)? ' ': r.xpath(".//display/creationdate").first.text,
                                     :volume => (r.xpath(".//display/version").first.blank?)? ' ': r.xpath(".//display/version").first.text,
-                                    :description => (r.xpath(".//display/description").first.blank?)? ' ': r.xpath(".//display/description").first.text
+                                    :description => (r.xpath(".//display/description").first.blank?)? ' ': r.xpath(".//display/description").first.text ,
+                                    :src => r.xpath('.//LINKS').xpath('.//linktorsrc').text
                                   }
                               }
     @page_results = WillPaginate::Collection.create(@page, @per_page, @total_results) do |pager|
@@ -124,65 +124,6 @@ require "nokogiri"
     haml :search
   end
 end
-
-
-
-###
-# Haml
-###
-
-## Haml to output unindented text
-
-# CodeRay syntax highlighting in Haml
-# First: gem install haml-coderay
-# require 'haml-coderay'
-
-# CoffeeScript filters in Haml
-# First: gem install coffee-filter
-# require 'coffee-filter'
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
-
-
-
-###
-# Page command
-###
-
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# Proxy (fake) files
-# page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
-#   @which_fake_page = "Rendering a fake page with a variable"
-# end
-
-
-
-
-###
-# Helpers
-###
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
 
 
 

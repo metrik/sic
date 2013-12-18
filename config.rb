@@ -144,18 +144,19 @@ require "nokogiri"
     numero_de_dominios = domain.xpath('.//@COUNT').first.value
 
     domains   = domain.xpath(".//xmlns:FACET_VALUES")
-    @domains  = domains.collect{|d| {:key => d.xpath('.//@KEY').first.value, :value => d.xpath('.//@VALUE').first.value}}.sort_by{|x| x[:key]}
+    @domains  = domains.collect{|d| {:key => d.xpath('.//@KEY').first.value, :value => d.xpath('.//@VALUE').first.value.reverse.gsub(/(\d{3})(?=\d)/, '\\1.').reverse}}.sort_by{|x| x[:key]}
     type     = doc.xpath(".//xmlns:FACET[@NAME='rtype']")
     types     = type.xpath(".//xmlns:FACET_VALUES")
-    @types    = types.collect{|d| {:key => d.xpath('.//@KEY').first.value, :value => d.xpath('.//@VALUE').first.value}}.sort_by{|x| x[:key]}
+    @types    = types.collect{|d| {:key => d.xpath('.//@KEY').first.value, :value => d.xpath('.//@VALUE').first.value.reverse.gsub(/(\d{3})(?=\d)/, '\\1.').reverse}}.sort_by{|x| x[:key]}
     doc.remove_namespaces!
-    record = doc.xpath(".//record")
+    record = doc.xpath(".//DOC")
     @records = record.collect{|r| {:title => r.xpath(".//display/title").first.text,
                                     :authors => (r.xpath(".//display/creator").first.blank?)? ' ' : r.xpath(".//display/creator").first.text.gsub(',',', '),
                                     :publisher => (r.xpath(".//display/publisher").first.blank?)? ' ': r.xpath(".//display/publisher").first.text,
                                     :creation_date => (r.xpath(".//display/creationdate").first.blank?)? ' ': r.xpath(".//display/creationdate").first.text,
                                     :volume => (r.xpath(".//display/version").first.blank?)? ' ': r.xpath(".//display/version").first.text,
-                                    :description => (r.xpath(".//display/description").first.blank?)? ' ': r.xpath(".//display/description").first.text
+                                    :description => (r.xpath(".//display/description").first.blank?)? ' ': r.xpath(".//display/description").first.text ,
+                                    :src => r.xpath('.//LINKS').xpath('.//linktorsrc').text
                                   }
                               }
     @page_results = WillPaginate::Collection.create(@page, @per_page, @total_results) do |pager|
