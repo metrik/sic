@@ -23,8 +23,8 @@ module ApplicationHelper
   def generate_url(type, value)
     return "#" if type == 'domain' && @domains.length == 1
     return "#" if type == 'rtype' && @types.length == 1
-    url = "/search.html?query=#{@query}&page=#{@page}"
-    url << "&rtype=#{@rtype}" unless @rtype.blank?
+    url = "/search.html?query=#{@query}"
+    url << "&type=#{@rtype}" unless @rtype.blank?
     url << "&domain=#{@domain}" unless @domain.blank?
     url << "&#{type}=#{value}"
     return url
@@ -60,20 +60,16 @@ require "nokogiri"
     end
     @per_page = 30
     indx = @per_page*(@page-1)+1
-    options = {:indx  => indx, 
-                :bulk_size => @per_page, 
-                :institution => 'CONICYT',
-                :loc => 'local,scope:(conicyt_dspace,conicyt_scielocl)',
-                :loc => 'adaptor,primo_central_multiple_fe'} 
+    options = "indx=#{indx}&bulkSize=#{@per_page}&institution=CONICYT&loc=local,scope:(conicyt_dspace,conicyt_scielocl)&loc=adaptor,primo_central_multiple_fe"
     @query = params[:query]
     @domain = params[:domain]
     @rtype = params[:type]
-    options.merge!({:query => "any,contains,#{@query}"})
+    options << "&query=any,contains,#{@query}"
     unless params[:domain].blank?
-      options.merge!({:query => "facet_domain,exact,#{@domain}"})
+      options << "&query=facet_domain,exact,#{@domain}"
     end
     unless params[:type].blank?
-      options.merge!({:query => "facet_rtype,exact,#{@rtype}"})
+      options << "&query=facet_rtype,exact,#{@rtype}"
     end
 
     #response = HTTParty.get('https://www.pcfactory.cl/', options)
@@ -82,12 +78,16 @@ require "nokogiri"
     #CONSTRUIR LA url
 
     #PARA OBTENER EL xml SIN ESPACIOS NI SALTOS DE LINEA
-    if params[:remote].blank? || Sinatra.env.development?
+    if  Sinatra.env.development?
       aux = File.read("primo.xml").gsub(/>\s+</,'><')
     else
       #Production
-      response = HTTParty.get('http://primo.gsl.com.mx:1701/PrimoWebServices/xservice/search/brief', options)
-      puts response.to_yaml
+      encoded_url = URI.encode("http://primo.gsl.com.mx:1701/PrimoWebServices/xservice/search/brief?"+options)
+      puts encoded_url
+      response = HTTParty.get(encoded_url)
+      puts response.body.to_yaml
+      puts encoded_url
+
       aux = response.body.gsub(/>\s+</,'><')
     end
     doc = Nokogiri::XML(aux)
@@ -109,10 +109,11 @@ require "nokogiri"
     doc.remove_namespaces!
     record = doc.xpath(".//record")
     @records = record.collect{|r| {:title => r.xpath(".//display/title").first.text,
-                                    :authors => r.xpath(".//display/creator").first.text.gsub(',',', '),
-                                    :publisher => r.xpath(".//display/publisher").first.text,
-                                    :creation_date => r.xpath(".//display/creationdate").first.text,
-                                    :volume => r.xpath(".//display/version").first.text
+                                    :authors => (r.xpath(".//display/creator").first.blank?)? ' ' : r.xpath(".//display/creator").first.text.gsub(',',', '),
+                                    :publisher => (r.xpath(".//display/publisher").first.blank?)? ' ': r.xpath(".//display/publisher").first.text,
+                                    :creation_date => (r.xpath(".//display/creationdate").first.blank?)? ' ': r.xpath(".//display/creationdate").first.text,
+                                    :volume => (r.xpath(".//display/version").first.blank?)? ' ': r.xpath(".//display/version").first.text,
+                                    :description => (r.xpath(".//display/description").first.blank?)? ' ': r.xpath(".//display/description").first.text
                                   }
                               }
     @page_results = WillPaginate::Collection.create(@page, @per_page, @total_results) do |pager|

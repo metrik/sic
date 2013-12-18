@@ -27,7 +27,7 @@
         %ul.nav.secondary
           -@types.each do |d|
             %li
-              %a{href: generate_url('rtype', d[:key])}
+              %a{href: generate_url('type', d[:key])}
                 =d[:key].titleize
                 %span.indicator
                   =d[:value]
@@ -65,8 +65,8 @@
               ="Vol.#{r[:volume]}"
               %em.hide
                 , pp.7127-7134 [Revistas arbitradas]
-          %p.excerpt.hide
-            consequences, such as the release of <strong>radioactive</strong> waste and... to analyze risks and uncertainties of a <strong>radioactive</strong>... statistical nature. Diffusion of...
+          %p.excerpt{:class => (r[:description].blank?)? 'hide': '' }
+            =r[:description]
           %p.options
             %i.fa.fa-check.green
             Texto completo disponible
