@@ -22,17 +22,17 @@
           %i.fa.fa-caret-down
         %ul.dropdown-menu
           %li
-            %a{href: "#about"}= image_tag "beic.png"
+            %a{href: "#about"}= image_tag "http://sic-assets.metrik.cl/images/beic.png"
           %li
-            %a{href: "#about"}= image_tag "scielo.png"
+            %a{href: "#about"}= image_tag "http://sic-assets.metrik.cl/images/scielo.png"
           %li
-            %a{href: "#about"}= image_tag "repo.png"
+            %a{href: "#about"}= image_tag "http://sic-assets.metrik.cl/images/repo.png"
           %li
-            %a{href: "#about"}= image_tag "productividad.png"
+            %a{href: "#about"}= image_tag "http://sic-assets.metrik.cl/images/productividad.png"
           %li
-            %a{href: "#about"}= image_tag "investigador.png"
+            %a{href: "#about"}= image_tag "http://sic-assets.metrik.cl/images/investigador.png"
           %li
-            %a{href: "#about"}= image_tag "redciencia.png"
+            %a{href: "#about"}= image_tag "http://sic-assets.metrik.cl/images/redciencia.png"
 #top{"data-spy"=>"affix", "data-offset-top"=>"34"}
   .container
     .row
@@ -62,7 +62,7 @@
                 %a{href: "#"} Português
       .col-xs-3
         .site-search
-          %form{:action => '/sinatra/search.html', :method => :post}
+          %form{:action => '/sinatra/search.html', :method => :get}
             %i.fa.fa-search
             %input#search_header.form-control{name: 'query',type: "text", placeholder: "Buscar revistas, artículos..."}
             #search_advanced{style: "display:none"}
